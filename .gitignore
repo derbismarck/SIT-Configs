@@ -1,0 +1,17 @@
+*.*
+!**/*.json
+!.gitignore
+/Aki_Data/Launcher/Locales
+/Aki_Data/Server/database/locales
+/Aki_Data/Server/database/templates
+/Aki_Data/Server/database/match/metrics.json
+/ConsistencyInfo
+/EscapeFromTarkov_Data
+/user/profiles
+/user/cache
+/user/logs
+/MonoBleedingEdge
+/user/mods/order.json
+**/assort.json
+**/dialogue.json
+**/questassort.json
