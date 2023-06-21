@@ -40,40 +40,40 @@
             "factory4_day": [{
                     "sptId": "sptBearFactoryDayBossSpawn",
                     "BossName": "sptBear",
-                    "BossChance": 25,
+                    "BossChance": 100,
                     "BossZone": "BotZone",
                     "BossPlayer": false,
                     "BossDifficult": "normal",
                     "BossEscortType": "sptBear",
                     "BossEscortDifficult": "normal",
-                    "BossEscortAmount": "1",
+                    "BossEscortAmount": "4",
                     "Time": -1,
                     "Supports": [{
                             "BossEscortType": "sptBear",
                             "BossEscortDifficult": [
                                 "normal"
                             ],
-                            "BossEscortAmount": "1"
+                            "BossEscortAmount": "4"
                         }
                     ],
                     "RandomTimeSpawn": false
                 }, {
                     "sptId": "sptUsecFactoryDayBossSpawn",
                     "BossName": "sptUsec",
-                    "BossChance": 25,
+                    "BossChance": 100,
                     "BossZone": "BotZone",
                     "BossPlayer": false,
                     "BossDifficult": "normal",
                     "BossEscortType": "sptUsec",
                     "BossEscortDifficult": "normal",
-                    "BossEscortAmount": "1",
+                    "BossEscortAmount": "4",
                     "Time": -1,
                     "Supports": [{
                             "BossEscortType": "sptUsec",
                             "BossEscortDifficult": [
                                 "normal"
                             ],
-                            "BossEscortAmount": "1"
+                            "BossEscortAmount": "4"
                         }
                     ],
                     "RandomTimeSpawn": false
