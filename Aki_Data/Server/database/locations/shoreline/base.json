@@ -164,7 +164,7 @@
     "RequiredPlayerLevelMax": 100,
     "Rules": "Normal",
     "SafeLocation": false,
-    "ScavMaxPlayersInGroup": 4,
+    "ScavMaxPlayersInGroup": 8,
     "Scene": {
         "path": "maps/shoreline_preset.bundle",
         "rcid": "shoreline.scenespreset.asset"
@@ -8491,8 +8491,8 @@
             "WildSpawnType": "assault",
             "isPlayers": false,
             "number": 0,
-            "slots_max": 4,
-            "slots_min": 2,
+            "slots_max": 12,
+            "slots_min": 6,
             "time_max": 11,
             "time_min": 5
         }, {
@@ -8502,8 +8502,8 @@
             "WildSpawnType": "assault",
             "isPlayers": true,
             "number": 1,
-            "slots_max": 2,
-            "slots_min": 0,
+            "slots_max": 3,
+            "slots_min": 1,
             "time_max": 150,
             "time_min": 140
         }, {
@@ -8514,7 +8514,7 @@
             "isPlayers": true,
             "number": 2,
             "slots_max": 4,
-            "slots_min": 1,
+            "slots_min": 2,
             "time_max": 11,
             "time_min": 5
         }, {
@@ -8524,8 +8524,8 @@
             "WildSpawnType": "assault",
             "isPlayers": true,
             "number": 3,
-            "slots_max": 2,
-            "slots_min": 1,
+            "slots_max": 4,
+            "slots_min": 2,
             "time_max": 168,
             "time_min": 160
         }, {
@@ -8535,8 +8535,8 @@
             "WildSpawnType": "assault",
             "isPlayers": false,
             "number": 4,
-            "slots_max": 2,
-            "slots_min": 1,
+            "slots_max": 6,
+            "slots_min": 3,
             "time_max": 11,
             "time_min": 5
         }, {
@@ -8546,7 +8546,7 @@
             "WildSpawnType": "assault",
             "isPlayers": false,
             "number": 5,
-            "slots_max": 2,
+            "slots_max": 4,
             "slots_min": 1,
             "time_max": 11,
             "time_min": 5
@@ -8557,7 +8557,7 @@
             "WildSpawnType": "assault",
             "isPlayers": true,
             "number": 6,
-            "slots_max": 2,
+            "slots_max": 4,
             "slots_min": 1,
             "time_max": 178,
             "time_min": 170
@@ -8568,7 +8568,7 @@
             "WildSpawnType": "assault",
             "isPlayers": true,
             "number": 7,
-            "slots_max": 2,
+            "slots_max": 4,
             "slots_min": 1,
             "time_max": 190,
             "time_min": 180
@@ -8601,7 +8601,7 @@
             "WildSpawnType": "assault",
             "isPlayers": false,
             "number": 11,
-            "slots_max": 1,
+            "slots_max": 2,
             "slots_min": 0,
             "time_max": 1420,
             "time_min": 1390
@@ -8612,7 +8612,7 @@
             "WildSpawnType": "assault",
             "isPlayers": false,
             "number": 12,
-            "slots_max": 1,
+            "slots_max": 2,
             "slots_min": 0,
             "time_max": 1500,
             "time_min": 1450
@@ -8623,7 +8623,7 @@
             "WildSpawnType": "assault",
             "isPlayers": false,
             "number": 13,
-            "slots_max": 2,
+            "slots_max": 4,
             "slots_min": 0,
             "time_max": 50,
             "time_min": 0
@@ -8634,7 +8634,7 @@
             "WildSpawnType": "assault",
             "isPlayers": false,
             "number": 14,
-            "slots_max": 2,
+            "slots_max": 4,
             "slots_min": 0,
             "time_max": 50,
             "time_min": 0
@@ -8645,7 +8645,7 @@
             "WildSpawnType": "assault",
             "isPlayers": true,
             "number": 15,
-            "slots_max": 4,
+            "slots_max": 6,
             "slots_min": 2,
             "time_max": 300,
             "time_min": 200
@@ -8656,7 +8656,7 @@
             "WildSpawnType": "assault",
             "isPlayers": true,
             "number": 16,
-            "slots_max": 4,
+            "slots_max": 6,
             "slots_min": 1,
             "time_max": 1000,
             "time_min": 600
@@ -8667,7 +8667,7 @@
             "WildSpawnType": "assault",
             "isPlayers": false,
             "number": 17,
-            "slots_max": 4,
+            "slots_max": 6,
             "slots_min": 0,
             "time_max": 2200,
             "time_min": 1300
@@ -8678,8 +8678,8 @@
             "WildSpawnType": "assault",
             "isPlayers": false,
             "number": 18,
-            "slots_max": 2,
-            "slots_min": 1,
+            "slots_max": 8,
+            "slots_min": 3,
             "time_max": -1,
             "time_min": -1
         }, {
@@ -8689,8 +8689,8 @@
             "WildSpawnType": "assault",
             "isPlayers": true,
             "number": 19,
-            "slots_max": 3,
-            "slots_min": 0,
+            "slots_max": 10,
+            "slots_min": 5,
             "time_max": 1000,
             "time_min": 700
         }, {
@@ -8700,7 +8700,7 @@
             "WildSpawnType": "assault",
             "isPlayers": false,
             "number": 20,
-            "slots_max": 4,
+            "slots_max": 6,
             "slots_min": 1,
             "time_max": 2200,
             "time_min": 1300
@@ -8711,7 +8711,7 @@
             "WildSpawnType": "assault",
             "isPlayers": true,
             "number": 21,
-            "slots_max": 4,
+            "slots_max": 6,
             "slots_min": 2,
             "time_max": 600,
             "time_min": 200
@@ -8722,7 +8722,7 @@
             "WildSpawnType": "assault",
             "isPlayers": false,
             "number": 22,
-            "slots_max": 4,
+            "slots_max": 6,
             "slots_min": 2,
             "time_max": 11,
             "time_min": 0
@@ -8733,7 +8733,7 @@
             "WildSpawnType": "assault",
             "isPlayers": true,
             "number": 23,
-            "slots_max": 4,
+            "slots_max": 6,
             "slots_min": 2,
             "time_max": 800,
             "time_min": 400
@@ -8755,8 +8755,8 @@
             "WildSpawnType": "assault",
             "isPlayers": true,
             "number": 25,
-            "slots_max": 8,
-            "slots_min": 3,
+            "slots_max": 12,
+            "slots_min": 6,
             "time_max": 300,
             "time_min": 150
         }, {
@@ -8766,8 +8766,8 @@
             "WildSpawnType": "assault",
             "isPlayers": true,
             "number": 26,
-            "slots_max": 8,
-            "slots_min": 3,
+            "slots_max": 12,
+            "slots_min": 6,
             "time_max": 600,
             "time_min": 250
         }, {
@@ -8777,8 +8777,8 @@
             "WildSpawnType": "assault",
             "isPlayers": true,
             "number": 27,
-            "slots_max": 8,
-            "slots_min": 2,
+            "slots_max": 12,
+            "slots_min": 4,
             "time_max": 1000,
             "time_min": 650
         }, {
@@ -8788,8 +8788,8 @@
             "WildSpawnType": "assault",
             "isPlayers": false,
             "number": 28,
-            "slots_max": 8,
-            "slots_min": 2,
+            "slots_max": 12,
+            "slots_min": 4,
             "time_max": 1100,
             "time_min": 550
         }
