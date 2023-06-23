@@ -8255,7 +8255,7 @@
       "slots_min": 1,
       "time_max": 3000,
       "time_min": 2500
-    }
+    },
 		{
 			"BotPreset": "hard",
 			"BotSide": "Savage",
