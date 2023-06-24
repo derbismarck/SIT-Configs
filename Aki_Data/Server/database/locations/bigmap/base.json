@@ -183,10 +183,10 @@
   "Loot": [],
   "MaxBotPerZone": 4,
   "MaxCoopGroup": 12,
-  "MaxDistToFreePoint": 300,
+  "MaxDistToFreePoint": 200,
   "MaxPlayers": 12,
   "MinDistToExitPoint": 30,
-  "MinDistToFreePoint": 80,
+  "MinDistToFreePoint": 60,
   "MinMaxBots": [
     {
       "WildSpawnType": "marksman",
@@ -205,8 +205,8 @@
     "path": "",
     "rcid": ""
   },
-  "RequiredPlayerLevelMin": 0,
   "RequiredPlayerLevelMax": 100,
+  "RequiredPlayerLevelMin": 0,
   "Rules": "AvoidAllPmc",
   "SafeLocation": false,
   "ScavMaxPlayersInGroup": 4,
