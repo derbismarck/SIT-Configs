@@ -7965,8 +7965,8 @@
       "number": 0,
       "slots_max": 1,
       "slots_min": 0,
-      "time_max": 360,
-      "time_min": 300
+      "time_max": 1,
+      "time_min": 0
     },
     {
       "BotPreset": "easy",
@@ -7977,8 +7977,8 @@
       "number": 1,
       "slots_max": 1,
       "slots_min": 0,
-      "time_max": 360,
-      "time_min": 300
+      "time_max": 30,
+      "time_min": 20
     },
     {
       "BotPreset": "normal",
@@ -7989,8 +7989,8 @@
       "number": 2,
       "slots_max": 8,
       "slots_min": 4,
-      "time_max": 360,
-      "time_min": 300
+      "time_max": 60,
+      "time_min": 30
     },
     {
       "BotPreset": "hard",
@@ -8001,8 +8001,8 @@
       "number": 3,
       "slots_max": 2,
       "slots_min": 0,
-      "time_max": 360,
-      "time_min": 300
+      "time_max": 31,
+      "time_min": 30
     },
     {
       "BotPreset": "normal",
@@ -8013,8 +8013,8 @@
       "number": 4,
       "slots_max": 1,
       "slots_min": 0,
-      "time_max": 360,
-      "time_min": 300
+      "time_max": 380,
+      "time_min": 350
     },
     {
       "BotPreset": "normal",
@@ -8049,8 +8049,8 @@
       "number": 7,
       "slots_max": 1,
       "slots_min": 0,
-      "time_max": 360,
-      "time_min": 300
+      "time_max": 30,
+      "time_min": 10
     },
     {
       "BotPreset": "hard",
@@ -8061,8 +8061,8 @@
       "number": 8,
       "slots_max": 1,
       "slots_min": 0,
-      "time_max": 360,
-      "time_min": 300
+      "time_max": 50,
+      "time_min": 40
     },
     {
       "BotPreset": "hard",
@@ -8073,8 +8073,8 @@
       "number": 9,
       "slots_max": 1,
       "slots_min": 0,
-      "time_max": 360,
-      "time_min": 300
+      "time_max": 30,
+      "time_min": 10
     },
     {
       "BotPreset": "easy",
@@ -8085,8 +8085,8 @@
       "number": 10,
       "slots_max": 1,
       "slots_min": 0,
-      "time_max": 360,
-      "time_min": 300
+      "time_max": 350,
+      "time_min": 301
     },
     {
       "BotPreset": "normal",
@@ -8097,8 +8097,8 @@
       "number": 11,
       "slots_max": 1,
       "slots_min": 0,
-      "time_max": 360,
-      "time_min": 300
+      "time_max": 3,
+      "time_min": 2
     },
     {
       "BotPreset": "easy",
@@ -8109,8 +8109,8 @@
       "number": 13,
       "slots_max": 1,
       "slots_min": 0,
-      "time_max": 360,
-      "time_min": 300
+      "time_max": 4,
+      "time_min": 2
     },
     {
       "BotPreset": "hard",
@@ -8145,8 +8145,8 @@
       "number": 16,
       "slots_max": 1,
       "slots_min": 0,
-      "time_max": 360,
-      "time_min": 300
+      "time_max": 55,
+      "time_min": 0
     },
     {
       "BotPreset": "normal",
@@ -8157,10 +8157,22 @@
       "number": 17,
       "slots_max": 2,
       "slots_min": 0,
-      "time_max": 360,
-      "time_min": 300
+      "time_max": 55,
+      "time_min": 0
     },
-	{
+    {
+      "BotPreset": "easy",
+      "BotSide": "Savage",
+      "SpawnPoints": "",
+      "WildSpawnType": "assault",
+      "isPlayers": false,
+      "number": 0,
+      "slots_max": 0,
+      "slots_min": 0,
+      "time_max": -1,
+      "time_min": -1
+    },
+    {
       "BotPreset": "normal",
       "BotSide": "Savage",
       "SpawnPoints": "",
@@ -8253,8 +8265,8 @@
 			"number": 0,
 			"slots_max": 3,
 			"slots_min": 1,
-		  "time_max": 360,
-		  "time_min": 300
+			"time_max": 11,
+			"time_min": 0
 		},
 		{
 			"BotPreset": "hard",
@@ -8265,8 +8277,8 @@
 			"number": 0,
 			"slots_max": 3,
 			"slots_min": 1,
-			"time_max": 360,
-			"time_min": 300
+			"time_max": 11,
+			"time_min": 0
 		},
 		{
 			"BotPreset": "hard",
@@ -8277,8 +8289,8 @@
 			"number": 0,
 			"slots_max": 3,
 			"slots_min": 1,
-			"time_max": 360,
-			"time_min": 300
+			"time_max": 11,
+			"time_min": 0
 		},
 		{
 			"BotPreset": "hard",
@@ -8289,8 +8301,8 @@
 			"number": 0,
 			"slots_max": 3,
 			"slots_min": 1,
-			"time_max": 360,
-			"time_min": 300
+			"time_max": 11,
+			"time_min": 0
 		},
 		{
 			"BotPreset": "hard",
@@ -8301,8 +8313,8 @@
 			"number": 0,
 			"slots_max": 1,
 			"slots_min": 1,
-			"time_max": 360,
-			"time_min": 300
+			"time_max": 11,
+			"time_min": 0
 		},
 		{
 			"BotPreset": "hard",
@@ -8313,8 +8325,8 @@
 			"number": 0,
 			"slots_max": 1,
 			"slots_min": 1,
-			"time_max": 360,
-			"time_min": 300
+			"time_max": 11,
+			"time_min": 0
 		},
 		{
 			"BotPreset": "hard",
