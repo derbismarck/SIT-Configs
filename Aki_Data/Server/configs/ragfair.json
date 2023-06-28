@@ -146,7 +146,7 @@
 		"removeSeasonalItemsWhenNotInEvent": true,
         "blacklist": {
             "custom": [],
-            "enableBsgList": true,
+            "enableBsgList": false,
             "enableQuestList": true,
             "traderItems": false
         }
