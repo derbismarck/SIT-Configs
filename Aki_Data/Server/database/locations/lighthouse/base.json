@@ -79,9 +79,9 @@
             "TriggerName": ""
         }, {
             "BossChance": 100,
-            "BossDifficult": "normal",
+            "BossDifficult": "easy",
             "BossEscortAmount": "1",
-            "BossEscortDifficult": "normal",
+            "BossEscortDifficult": "easy",
             "BossEscortType": "exUsec",
             "BossName": "exUsec",
             "BossPlayer": false,
@@ -93,9 +93,9 @@
             "TriggerName": ""
         }, {
             "BossChance": 100,
-            "BossDifficult": "normal",
+            "BossDifficult": "easy",
             "BossEscortAmount": "1,2",
-            "BossEscortDifficult": "normal",
+            "BossEscortDifficult": "easy",
             "BossEscortType": "exUsec",
             "BossName": "exUsec",
             "BossPlayer": false,
@@ -107,9 +107,9 @@
             "TriggerName": ""
         }, {
             "BossChance": 25,
-            "BossDifficult": "normal",
+            "BossDifficult": "easy",
             "BossEscortAmount": "1,1,2",
-            "BossEscortDifficult": "normal",
+            "BossEscortDifficult": "easy",
             "BossEscortType": "exUsec",
             "BossName": "exUsec",
             "BossPlayer": false,
@@ -121,9 +121,9 @@
             "TriggerName": ""
         }, {
             "BossChance": 25,
-            "BossDifficult": "normal",
+            "BossDifficult": "easy",
             "BossEscortAmount": "1,1,2",
-            "BossEscortDifficult": "normal",
+            "BossEscortDifficult": "easy",
             "BossEscortType": "exUsec",
             "BossName": "exUsec",
             "BossPlayer": false,
@@ -135,9 +135,9 @@
             "TriggerName": ""
         }, {
             "BossChance": 0,
-            "BossDifficult": "normal",
+            "BossDifficult": "easy",
             "BossEscortAmount": "2",
-            "BossEscortDifficult": "normal",
+            "BossEscortDifficult": "easy",
             "BossEscortType": "exUsec",
             "BossName": "exUsec",
             "BossPlayer": false,
@@ -149,9 +149,9 @@
             "TriggerName": ""
         }, {
             "BossChance": 60,
-            "BossDifficult": "normal",
+            "BossDifficult": "easy",
             "BossEscortAmount": "0",
-            "BossEscortDifficult": "normal",
+            "BossEscortDifficult": "easy",
             "BossEscortType": "exUsec",
             "BossName": "exUsec",
             "BossPlayer": false,
@@ -163,9 +163,9 @@
             "TriggerName": ""
         }, {
             "BossChance": 60,
-            "BossDifficult": "normal",
+            "BossDifficult": "easy",
             "BossEscortAmount": "1",
-            "BossEscortDifficult": "normal",
+            "BossEscortDifficult": "easy",
             "BossEscortType": "exUsec",
             "BossName": "exUsec",
             "BossPlayer": false,
@@ -177,9 +177,9 @@
             "TriggerName": ""
         }, {
             "BossChance": 4,
-            "BossDifficult": "normal",
+            "BossDifficult": "easy",
             "BossEscortAmount": "1,2",
-            "BossEscortDifficult": "normal",
+            "BossEscortDifficult": "easy",
             "BossEscortType": "exUsec",
             "BossName": "exUsec",
             "BossPlayer": false,
