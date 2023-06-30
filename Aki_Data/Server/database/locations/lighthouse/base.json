@@ -32,7 +32,7 @@
     ],
     "BossLocationSpawn": [{
             "BossChance": 100,
-            "BossDifficult": "normal",
+            "BossDifficult": "easy",
             "BossEscortAmount": "2",
             "BossEscortDifficult": "normal",
             "BossEscortType": "followerZryachiy",
@@ -45,8 +45,8 @@
             "TriggerId": "",
             "TriggerName": ""
         }, {
-            "BossChance": 24,
-            "BossDifficult": "normal",
+            "BossChance": 0,
+            "BossDifficult": "easy",
             "BossEscortAmount": "2",
             "BossEscortDifficult": "normal",
             "BossEscortType": "exUsec",
@@ -57,19 +57,19 @@
             "Supports": [{
                     "BossEscortAmount": "1",
                     "BossEscortDifficult": [
-                        "normal"
+                        "easy"
                     ],
                     "BossEscortType": "followerBigPipe"
                 }, {
                     "BossEscortAmount": "1",
                     "BossEscortDifficult": [
-                        "normal"
+                        "easy"
                     ],
                     "BossEscortType": "followerBirdEye"
                 }, {
                     "BossEscortAmount": "0",
                     "BossEscortDifficult": [
-                        "normal"
+                        "easy"
                     ],
                     "BossEscortType": "followerGluharScout"
                 }
