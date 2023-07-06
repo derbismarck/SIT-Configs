@@ -8518,7 +8518,7 @@
             "PlaneAirdropStartMin": 300,
             "PlaneAirdropStartMax": 900,
             "PlaneAirdropEnd": 1200,
-            "PlaneAirdropChance": 0.25,
+            "PlaneAirdropChance": 0.01,
             "PlaneAirdropMax": 1,
             "PlaneAirdropCooldownMin": 700,
             "PlaneAirdropCooldownMax": 800,

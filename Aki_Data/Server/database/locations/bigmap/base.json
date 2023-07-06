@@ -4,7 +4,7 @@
     {
       "AirdropPointDeactivateDistance": 50,
       "MinPlayersCountToSpawnAirdrop": 6,
-      "PlaneAirdropChance": 0.2,
+      "PlaneAirdropChance": 0.01,
       "PlaneAirdropCooldownMax": 700,
       "PlaneAirdropCooldownMin": 600,
       "PlaneAirdropEnd": 1200,

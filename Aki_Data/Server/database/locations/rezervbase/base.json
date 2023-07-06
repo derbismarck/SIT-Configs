@@ -3,7 +3,7 @@
     "AirdropParameters": [{
             "AirdropPointDeactivateDistance": 50,
             "MinPlayersCountToSpawnAirdrop": 6,
-            "PlaneAirdropChance": 0.1,
+            "PlaneAirdropChance": 0.01,
             "PlaneAirdropCooldownMax": 800,
             "PlaneAirdropCooldownMin": 700,
             "PlaneAirdropEnd": 1500,
