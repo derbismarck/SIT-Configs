@@ -38,7 +38,7 @@
             "BossEscortType": "followerTagilla",
             "BossName": "bossKilla",
             "BossPlayer": false,
-            "BossZone": "ZoneCenterBot,ZoneCenter,ZoneOLI,ZoneIDEA,ZoneGoshan,ZoneIDEAPark,ZoneOLIPark",
+            "BossZone": "ZoneCenter,ZoneOLI,ZoneIDEA,ZoneGoshan,ZoneIDEAPark,ZoneOLIPark",
             "RandomTimeSpawn": false,
             "Supports": null,
             "Time": -1
@@ -97,7 +97,7 @@
     "OcculsionCullingEnabled": true,
     "OldSpawn": false,
     "OpenZones": "ZoneCenter,ZoneCenterBot,ZoneOLI,ZoneIDEA,ZoneRoad,ZoneIDEAPark,ZoneGoshan,ZonePowerStation,ZoneTrucks,ZoneOLIPark",
-    "PmcMaxPlayersInGroup": 5,
+    "PmcMaxPlayersInGroup": 8,
     "Preview": {
         "path": "",
         "rcid": ""
@@ -312,8 +312,8 @@
         }, {
             "BotZoneName": "ZoneCenterBot",
             "Categories": [
-                "Bot",
-                "Boss"
+                "Coop",
+                "Group"
             ],
             "ColliderParams": {
                 "_parent": "SpawnSphereParams",
@@ -326,7 +326,7 @@
                     "Radius": 90
                 }
             },
-            "DelayToCanSpawnSec": 40,
+            "DelayToCanSpawnSec": 0,
             "Id": "06e2c670-c4bf-4adb-8228-916bb8804679",
             "Infiltration": "",
             "Position": {
@@ -336,7 +336,7 @@
             },
             "Rotation": 53.03254,
             "Sides": [
-                "Savage"
+                "Pmc"
             ]
         }, {
             "BotZoneName": "",
@@ -454,8 +454,8 @@
         }, {
             "BotZoneName": "ZoneCenterBot",
             "Categories": [
-                "Bot",
-                "Boss"
+                "Coop",
+                "Group"
             ],
             "ColliderParams": {
                 "_parent": "SpawnSphereParams",
@@ -478,7 +478,7 @@
             },
             "Rotation": 232.64743,
             "Sides": [
-                "Savage"
+                "Pmc"
             ]
         }, {
             "BotZoneName": "ZoneOLI",
@@ -1778,8 +1778,8 @@
         }, {
             "BotZoneName": "ZoneCenterBot",
             "Categories": [
-                "Bot",
-                "Boss"
+                "Coop",
+                "Group"
             ],
             "ColliderParams": {
                 "_parent": "SpawnSphereParams",
@@ -1802,7 +1802,7 @@
             },
             "Rotation": 91.26827,
             "Sides": [
-                "Savage"
+                "Pmc"
             ]
         }, {
             "BotZoneName": "ZoneIDEAPark",
@@ -4998,8 +4998,8 @@
         }, {
             "BotZoneName": "ZoneCenterBot",
             "Categories": [
-                "Bot",
-                "Boss"
+                "Coop",
+                "Group"
             ],
             "ColliderParams": {
                 "_parent": "SpawnSphereParams",
@@ -5022,7 +5022,7 @@
             },
             "Rotation": 64.67698,
             "Sides": [
-                "Savage"
+                "Pmc"
             ]
         }, {
             "BotZoneName": "",
@@ -6154,8 +6154,8 @@
         }, {
             "BotZoneName": "ZoneCenterBot",
             "Categories": [
-                "Bot",
-                "Boss"
+                "Coop",
+                "Group"
             ],
             "ColliderParams": {
                 "_parent": "SpawnSphereParams",
@@ -6178,7 +6178,7 @@
             },
             "Rotation": 91.26827,
             "Sides": [
-                "Savage"
+                "Pmc"
             ]
         }, {
             "BotZoneName": "ZoneGoshan",
@@ -6662,16 +6662,16 @@
             "time_max": 11,
             "time_min": 1
         }, {
-            "BotPreset": "normal",
+            "BotPreset": "hard",
             "BotSide": "Savage",
             "SpawnPoints": "ZoneCenterBot",
-            "WildSpawnType": "assault",
+            "WildSpawnType": "sptUsec",
             "isPlayers": false,
             "number": 1,
-            "slots_max": 3,
-            "slots_min": 1,
-            "time_max": 30,
-            "time_min": 10
+            "slots_max": 8,
+            "slots_min": 6,
+            "time_max": 1,
+            "time_min": 0
         }, {
             "BotPreset": "easy",
             "BotSide": "Savage",
@@ -6753,13 +6753,13 @@
             "BotPreset": "hard",
             "BotSide": "Savage",
             "SpawnPoints": "ZoneCenterBot",
-            "WildSpawnType": "assault",
+            "WildSpawnType": "sptBear",
             "isPlayers": false,
-            "number": 9,
-            "slots_max": 2,
-            "slots_min": 0,
-            "time_max": 700,
-            "time_min": 500
+            "number": 1,
+            "slots_max": 8,
+            "slots_min": 6,
+            "time_max": 900,
+            "time_min": 1200
         }, {
             "BotPreset": "easy",
             "BotSide": "Savage",
