@@ -2612,7 +2612,7 @@
       "SecuredContainer": 100
     },
     "mods": {
-      "mod_magazine": 100,
+      "mod_magazine": 0,
       "mod_scope": 89,
       "mod_sight_rear": 100,
       "mod_sight_front": 69,

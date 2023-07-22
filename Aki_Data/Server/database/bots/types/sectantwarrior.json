@@ -3327,7 +3327,7 @@
     "mods": {
       "mod_stock": 100,
       "mod_charge": 0,
-      "mod_magazine": 100,
+      "mod_magazine": 0,
       "mod_muzzle": 100,
       "mod_reciever": 100,
       "mod_sight_rear": 64,

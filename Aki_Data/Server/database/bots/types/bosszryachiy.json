@@ -2370,7 +2370,7 @@
       "SecuredContainer": 100
     },
     "mods": {
-      "mod_magazine": 100,
+      "mod_magazine": 0,
       "mod_stock": 75,
       "mod_mount_000": 34,
       "mod_mount_001": 3,

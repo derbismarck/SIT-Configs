@@ -4059,7 +4059,7 @@
       "SecuredContainer": 100
     },
     "mods": {
-      "mod_magazine": 100,
+      "mod_magazine": 0,
       "mod_stock": 100,
       "mod_scope": 68,
       "mod_sight_rear": 75,

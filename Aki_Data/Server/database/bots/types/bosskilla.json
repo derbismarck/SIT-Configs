@@ -2476,7 +2476,7 @@
     },
     "mods": {
       "mod_reciever": 100,
-      "mod_magazine": 100,
+      "mod_magazine": 0,
       "mod_charge": 15,
       "mod_stock_001": 100,
       "mod_stock": 100,

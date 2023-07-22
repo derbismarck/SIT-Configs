@@ -2556,7 +2556,7 @@
     },
     "mods": {
       "mod_mount_000": 51,
-      "mod_magazine": 100,
+      "mod_magazine": 0,
       "mod_reciever": 100,
       "mod_charge": 0,
       "mod_mount_004": 0,

@@ -3545,7 +3545,7 @@
     },
     "mods": {
       "mod_sight_rear": 38,
-      "mod_magazine": 100,
+      "mod_magazine": 0,
       "mod_mount": 89,
       "mod_muzzle": 19,
       "mod_mount_001": 0,

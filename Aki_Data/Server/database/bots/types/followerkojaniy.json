@@ -2694,7 +2694,7 @@
     "mods": {
       "mod_reciever": 100,
       "mod_sight_rear": 77,
-      "mod_magazine": 100,
+      "mod_magazine": 0,
       "mod_mount": 50,
       "mod_muzzle": 28,
       "mod_tactical": 27,
