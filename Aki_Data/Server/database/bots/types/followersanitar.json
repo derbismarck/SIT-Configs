@@ -2599,7 +2599,7 @@
       "mod_reciever": 100,
       "mod_sight_rear": 66,
       "mod_stock": 50,
-      "mod_magazine": 0,
+      "mod_magazine": 100,
       "mod_charge": 0,
       "mod_sight_front": 0,
       "mod_mount": 31,

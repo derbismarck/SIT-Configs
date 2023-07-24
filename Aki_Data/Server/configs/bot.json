@@ -591,7 +591,7 @@
                         "mod_foregrip": 15,
                         "mod_handguard": 25,
                         "mod_launcher": 0,
-                        "mod_magazine": 0,
+                        "mod_magazine": 100,
                         "mod_mount": 15,
                         "mod_mount_000": 15,
                         "mod_mount_001": 15,
