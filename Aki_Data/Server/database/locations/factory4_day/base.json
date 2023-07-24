@@ -3890,76 +3890,76 @@
       "time_min": 1600
     },
 	{
-		"BotPreset": "hard",
+		"BotPreset": "normal",
 		"BotSide": "Savage",
 		"SpawnPoints": "",
-		"WildSpawnType": "sptUsec",
+		"WildSpawnType": "pmcBot",
 		"isPlayers": true,
 		"number": 0,
-		"slots_max": 4,
-		"slots_min": 2,
-		"time_max": 11,
-		"time_min": 0
-	},
-	{
-		"BotPreset": "hard",
-		"BotSide": "Savage",
-		"SpawnPoints": "",
-		"WildSpawnType": "sptBear",
-		"isPlayers": true,
-		"number": 0,
-		"slots_max": 4,
-		"slots_min": 2,
-		"time_max": 11,
-		"time_min": 0
-	},
-	{
-		"BotPreset": "hard",
-		"BotSide": "Savage",
-		"SpawnPoints": "",
-		"WildSpawnType": "sptUsec",
-		"isPlayers": true,
-		"number": 0,
-		"slots_max": 1,
+		"slots_max": 2,
 		"slots_min": 0,
 		"time_max": 11,
 		"time_min": 0
 	},
 	{
-		"BotPreset": "hard",
+		"BotPreset": "normal",
 		"BotSide": "Savage",
 		"SpawnPoints": "",
-		"WildSpawnType": "sptBear",
+		"WildSpawnType": "pmcBot",
 		"isPlayers": true,
 		"number": 0,
-		"slots_max": 1,
+		"slots_max": 2,
 		"slots_min": 0,
 		"time_max": 11,
 		"time_min": 0
 	},
 	{
-		"BotPreset": "hard",
+		"BotPreset": "normal",
 		"BotSide": "Savage",
 		"SpawnPoints": "",
-		"WildSpawnType": "sptUsec",
+		"WildSpawnType": "pmcBot",
 		"isPlayers": true,
 		"number": 0,
-		"slots_max": 1,
+		"slots_max": 2,
 		"slots_min": 0,
-		"time_max": 600,
+		"time_max": 900,
+		"time_min": 300
+	},
+	{
+		"BotPreset": "normal",
+		"BotSide": "Savage",
+		"SpawnPoints": "",
+		"WildSpawnType": "pmcBot",
+		"isPlayers": true,
+		"number": 0,
+		"slots_max": 2,
+		"slots_min": 0,
+		"time_max": 900,
 		"time_min": 300
 	},
 	{
 		"BotPreset": "hard",
 		"BotSide": "Savage",
 		"SpawnPoints": "",
-		"WildSpawnType": "sptBear",
+		"WildSpawnType": "pmcBot",
 		"isPlayers": true,
 		"number": 0,
 		"slots_max": 1,
 		"slots_min": 0,
-		"time_max": 600,
-		"time_min": 300
+		"time_max": 1800,
+		"time_min": 900
+	},
+	{
+		"BotPreset": "normal",
+		"BotSide": "Savage",
+		"SpawnPoints": "",
+		"WildSpawnType": "pmcBot",
+		"isPlayers": true,
+		"number": 0,
+		"slots_max": 2,
+		"slots_min": 0,
+		"time_max": 1800,
+		"time_min": 900
 	}
   ]
 }

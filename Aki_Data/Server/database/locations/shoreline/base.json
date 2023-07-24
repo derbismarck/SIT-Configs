@@ -8484,7 +8484,52 @@
     "users_spawn_seconds_n": 120,
     "users_spawn_seconds_n2": 200,
     "users_summon_seconds": 0,
-    "waves": [{
+    "waves": [
+		{
+			"BotPreset": "hard",
+			"BotSide": "Savage",
+			"SpawnPoints": "ZoneSanatorium1",
+			"WildSpawnType": "pmcBot",
+			"isPlayers": false,
+			"number": 1,
+			"slots_max": 1,
+			"slots_min": 0,
+			"time_max": 1,
+			"time_min": 0
+		},{
+			"BotPreset": "hard",
+			"BotSide": "Savage",
+			"SpawnPoints": "ZoneSanatorium2",
+			"WildSpawnType": "pmcBot",
+			"isPlayers": false,
+			"number": 1,
+			"slots_max": 1,
+			"slots_min": 0,
+			"time_max": 1,
+			"time_min": 0
+		},{
+			"BotPreset": "easy",
+			"BotSide": "Savage",
+			"SpawnPoints": "ZoneSanatorium1",
+			"WildSpawnType": "pmcBot",
+			"isPlayers": false,
+			"number": 1,
+			"slots_max": 4,
+			"slots_min": 0,
+			"time_max": 1,
+			"time_min": 0
+		},{
+			"BotPreset": "easy",
+			"BotSide": "Savage",
+			"SpawnPoints": "ZoneSanatorium2",
+			"WildSpawnType": "pmcBot",
+			"isPlayers": false,
+			"number": 1,
+			"slots_max": 4,
+			"slots_min": 0,
+			"time_max": 1,
+			"time_min": 0
+		},{
             "BotPreset": "easy",
             "BotSide": "Savage",
             "SpawnPoints": "",
@@ -8781,113 +8826,102 @@
             "slots_min": 4,
             "time_max": 1000,
             "time_min": 650
-        }, {
-            "BotPreset": "normal",
-            "BotSide": "Bear",
-            "SpawnPoints": "ZoneSanatorium2",
-            "WildSpawnType": "assault",
-            "isPlayers": false,
-            "number": 28,
-            "slots_max": 12,
-            "slots_min": 4,
-            "time_max": 1100,
-            "time_min": 550
         },
 		{
-			"BotPreset": "hard",
+			"BotPreset": "normal",
 			"BotSide": "Savage",
 			"SpawnPoints": "",
-			"WildSpawnType": "sptUsec",
-			"isPlayers": true,
-			"number": 0,
-			"slots_max": 4,
-			"slots_min": 2,
-			"time_max": 11,
-			"time_min": 0
-		},
-		{
-			"BotPreset": "hard",
-			"BotSide": "Savage",
-			"SpawnPoints": "",
-			"WildSpawnType": "sptBear",
-			"isPlayers": true,
-			"number": 0,
-			"slots_max": 4,
-			"slots_min": 2,
-			"time_max": 11,
-			"time_min": 0
-		},
-		{
-			"BotPreset": "hard",
-			"BotSide": "Savage",
-			"SpawnPoints": "",
-			"WildSpawnType": "sptUsec",
-			"isPlayers": true,
-			"number": 0,
-			"slots_max": 4,
-			"slots_min": 2,
-			"time_max": 11,
-			"time_min": 0
-		},
-		{
-			"BotPreset": "hard",
-			"BotSide": "Savage",
-			"SpawnPoints": "",
-			"WildSpawnType": "sptBear",
-			"isPlayers": true,
-			"number": 0,
-			"slots_max": 4,
-			"slots_min": 2,
-			"time_max": 11,
-			"time_min": 0
-		},
-		{
-			"BotPreset": "hard",
-			"BotSide": "Savage",
-			"SpawnPoints": "",
-			"WildSpawnType": "sptUsec",
+			"WildSpawnType": "pmcBot",
 			"isPlayers": true,
 			"number": 0,
 			"slots_max": 1,
-			"slots_min": 1,
-			"time_max": 11,
-			"time_min": 0
+			"slots_min": 0,
+			"time_max": 900,
+			"time_min": 300
 		},
 		{
-			"BotPreset": "hard",
+			"BotPreset": "easy",
 			"BotSide": "Savage",
 			"SpawnPoints": "",
-			"WildSpawnType": "sptBear",
+			"WildSpawnType": "pmcBot",
 			"isPlayers": true,
 			"number": 0,
-			"slots_max": 1,
-			"slots_min": 1,
-			"time_max": 11,
-			"time_min": 0
+			"slots_max": 3,
+			"slots_min": 0,
+			"time_max": 900,
+			"time_min": 300
 		},
 		{
-			"BotPreset": "hard",
+			"BotPreset": "normal",
 			"BotSide": "Savage",
 			"SpawnPoints": "",
-			"WildSpawnType": "sptUsec",
+			"WildSpawnType": "pmcBot",
+			"isPlayers": true,
+			"number": 0,
+			"slots_max": 2,
+			"slots_min": 0,
+			"time_max": 900,
+			"time_min": 300
+		},
+		{
+			"BotPreset": "easy",
+			"BotSide": "Savage",
+			"SpawnPoints": "",
+			"WildSpawnType": "pmcBot",
 			"isPlayers": true,
 			"number": 0,
 			"slots_max": 4,
-			"slots_min": 4,
-			"time_max": 1500,
-			"time_min": 1200
+			"slots_min": 0,
+			"time_max": 600,
+			"time_min": 150
 		},
 		{
-			"BotPreset": "hard",
+			"BotPreset": "normal",
 			"BotSide": "Savage",
 			"SpawnPoints": "",
-			"WildSpawnType": "sptBear",
+			"WildSpawnType": "pmcBot",
+			"isPlayers": true,
+			"number": 0,
+			"slots_max": 3,
+			"slots_min": 0,
+			"time_max": 1800,
+			"time_min": 900
+		},
+		{
+			"BotPreset": "normal",
+			"BotSide": "Savage",
+			"SpawnPoints": "",
+			"WildSpawnType": "pmcBot",
+			"isPlayers": true,
+			"number": 0,
+			"slots_max": 3,
+			"slots_min": 0,
+			"time_max": 1800,
+			"time_min": 900
+		},
+		{
+			"BotPreset": "normal",
+			"BotSide": "Savage",
+			"SpawnPoints": "",
+			"WildSpawnType": "pmcBot",
 			"isPlayers": true,
 			"number": 0,
 			"slots_max": 4,
-			"slots_min": 4,
-			"time_max": 1500,
-			"time_min": 1200
+			"slots_min": 0,
+			"time_max": 2400,
+			"time_min": 1800
+		},
+		{
+			"BotPreset": "normal",
+			"BotSide": "Savage",
+			"SpawnPoints": "",
+			"WildSpawnType": "pmcBot",
+			"isPlayers": true,
+			"number": 0,
+			"slots_max": 4,
+			"slots_min": 0,
+			"time_max": 2400,
+			"time_min": 1800
 		}
     ]
 }
