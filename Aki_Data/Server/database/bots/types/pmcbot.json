@@ -2482,13 +2482,11 @@
         "HIT_DELAY_WHEN_HAVE_SMT": -1,
         "HIT_DELAY_WHEN_PEACE": -1,
         "TALK_WITH_QUERY": true,
-        "DEFAULT_SAVAGE_BEHAVIOUR": "Warn",
+        "DEFAULT_SAVAGE_BEHAVIOUR": "Attack",
         "DEFAULT_BEAR_BEHAVIOUR": "Attack",
         "DEFAULT_USEC_BEHAVIOUR": "Attack",
         "FRIENDLY_BOT_TYPES": [],
-        "WARN_BOT_TYPES": [
-          "assault"
-        ],
+        "WARN_BOT_TYPES": [],
         "ENEMY_BOT_TYPES": [],
         "REVENGE_BOT_TYPES": [
           "pmcBot",
@@ -2966,13 +2964,11 @@
         "HIT_DELAY_WHEN_HAVE_SMT": -1,
         "HIT_DELAY_WHEN_PEACE": -1,
         "TALK_WITH_QUERY": true,
-        "DEFAULT_SAVAGE_BEHAVIOUR": "Warn",
+        "DEFAULT_SAVAGE_BEHAVIOUR": "Attack",
         "DEFAULT_BEAR_BEHAVIOUR": "Attack",
         "DEFAULT_USEC_BEHAVIOUR": "Attack",
         "FRIENDLY_BOT_TYPES": [],
-        "WARN_BOT_TYPES": [
-          "assault"
-        ],
+        "WARN_BOT_TYPES": [],
         "ENEMY_BOT_TYPES": [],
         "REVENGE_BOT_TYPES": [
           "pmcBot",
@@ -3450,13 +3446,11 @@
         "HIT_DELAY_WHEN_HAVE_SMT": -1,
         "HIT_DELAY_WHEN_PEACE": -1,
         "TALK_WITH_QUERY": true,
-        "DEFAULT_SAVAGE_BEHAVIOUR": "Warn",
+        "DEFAULT_SAVAGE_BEHAVIOUR": "Attack",
         "DEFAULT_BEAR_BEHAVIOUR": "Attack",
         "DEFAULT_USEC_BEHAVIOUR": "Attack",
         "FRIENDLY_BOT_TYPES": [],
-        "WARN_BOT_TYPES": [
-          "assault"
-        ],
+        "WARN_BOT_TYPES": [],
         "ENEMY_BOT_TYPES": [],
         "REVENGE_BOT_TYPES": [
           "pmcBot",
@@ -3934,13 +3928,11 @@
         "HIT_DELAY_WHEN_HAVE_SMT": -1,
         "HIT_DELAY_WHEN_PEACE": -1,
         "TALK_WITH_QUERY": true,
-        "DEFAULT_SAVAGE_BEHAVIOUR": "Warn",
+        "DEFAULT_SAVAGE_BEHAVIOUR": "Attack",
         "DEFAULT_BEAR_BEHAVIOUR": "Attack",
         "DEFAULT_USEC_BEHAVIOUR": "Attack",
         "FRIENDLY_BOT_TYPES": [],
-        "WARN_BOT_TYPES": [
-          "assault"
-        ],
+        "WARN_BOT_TYPES": [],
         "ENEMY_BOT_TYPES": [],
         "REVENGE_BOT_TYPES": [
           "pmcBot",
