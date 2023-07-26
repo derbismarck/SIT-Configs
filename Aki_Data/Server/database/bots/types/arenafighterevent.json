@@ -215,9 +215,9 @@
         "5a17f98cfcdbcb0980087290": 1
       },
       "Scabbard": {},
-      "Pockets": {
-        "5af99e9186f7747c447120b8": 1
-      },
+	  "Pockets": {
+		"60c7272c204bc17802313365": 1
+	  },
       "SecuredContainer": {
         "5c0a794586f77461c458f892": 1
       }
@@ -1754,7 +1754,7 @@
         "WARN_BOT_TYPES": [
           "assault"
         ],
-        "ENEMY_BOT_TYPES": [],
+        "ENEMY_BOT_TYPES": ["pmcBot"],
         "REVENGE_BOT_TYPES": [
           "pmcBot",
           "gifter"
@@ -2238,7 +2238,7 @@
         "WARN_BOT_TYPES": [
           "assault"
         ],
-        "ENEMY_BOT_TYPES": [],
+        "ENEMY_BOT_TYPES": ["pmcBot"],
         "REVENGE_BOT_TYPES": [
           "pmcBot",
           "gifter"
@@ -2722,7 +2722,7 @@
         "WARN_BOT_TYPES": [
           "assault"
         ],
-        "ENEMY_BOT_TYPES": [],
+        "ENEMY_BOT_TYPES": ["pmcBot"],
         "REVENGE_BOT_TYPES": [
           "pmcBot",
           "gifter"
@@ -3206,7 +3206,7 @@
         "WARN_BOT_TYPES": [
           "assault"
         ],
-        "ENEMY_BOT_TYPES": [],
+        "ENEMY_BOT_TYPES": ["pmcBot"],
         "REVENGE_BOT_TYPES": [
           "pmcBot",
           "gifter"
@@ -3385,7 +3385,7 @@
       },
       "grenades": {
         "min": 0,
-        "max": 5
+        "max": 3
       }
     }
   }
