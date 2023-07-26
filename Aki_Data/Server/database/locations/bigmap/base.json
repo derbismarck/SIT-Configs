@@ -7963,12 +7963,12 @@
 	  "WildSpawnType": "pmcBot",
 	  "isPlayers": false,
 	  "number": 1,
-	  "slots_max": 4,
+	  "slots_max": 2,
 	  "slots_min": 0,
 	  "time_max": 1,
 	  "time_min": 0
 	},{
-	  "BotPreset": "hard",
+	  "BotPreset": "normal",
 	  "BotSide": "Savage",
 	  "SpawnPoints": "ZoneScavBase",
 	  "WildSpawnType": "pmcBot",
@@ -8319,7 +8319,31 @@
 			"WildSpawnType": "pmcBot",
 			"isPlayers": true,
 			"number": 0,
-			"slots_max": 4,
+			"slots_max": 3,
+			"slots_min": 0,
+			"time_max": 1,
+			"time_min": 0
+		},
+		{
+			"BotPreset": "easy",
+			"BotSide": "Savage",
+			"SpawnPoints": "",
+			"WildSpawnType": "arenafighterevent",
+			"isPlayers": true,
+			"number": 0,
+			"slots_max": 3,
+			"slots_min": 0,
+			"time_max": 1,
+			"time_min": 0
+		},
+		{
+			"BotPreset": "easy",
+			"BotSide": "Savage",
+			"SpawnPoints": "",
+			"WildSpawnType": "arenafighterevent",
+			"isPlayers": true,
+			"number": 0,
+			"slots_max": 3,
 			"slots_min": 0,
 			"time_max": 1,
 			"time_min": 0
@@ -8337,7 +8361,7 @@
 			"time_min": 600
 		},
 		{
-			"BotPreset": "hard",
+			"BotPreset": "normal",
 			"BotSide": "Savage",
 			"SpawnPoints": "",
 			"WildSpawnType": "pmcBot",

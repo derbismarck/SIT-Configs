@@ -7137,6 +7137,30 @@
 			"BotPreset": "normal",
 			"BotSide": "Savage",
 			"SpawnPoints": "",
+			"WildSpawnType": "arenafighterevent",
+			"isPlayers": true,
+			"number": 0,
+			"slots_max": 3,
+			"slots_min": 0,
+			"time_max": 1,
+			"time_min": 0
+		},
+		{
+			"BotPreset": "normal",
+			"BotSide": "Savage",
+			"SpawnPoints": "",
+			"WildSpawnType": "arenafighterevent",
+			"isPlayers": true,
+			"number": 0,
+			"slots_max": 3,
+			"slots_min": 0,
+			"time_max": 1,
+			"time_min": 0
+		},
+		{
+			"BotPreset": "normal",
+			"BotSide": "Savage",
+			"SpawnPoints": "",
 			"WildSpawnType": "pmcBot",
 			"isPlayers": true,
 			"number": 0,
@@ -7152,7 +7176,7 @@
 			"WildSpawnType": "pmcBot",
 			"isPlayers": true,
 			"number": 0,
-			"slots_max": 3,
+			"slots_max": 2,
 			"slots_min": 0,
 			"time_max": 900,
 			"time_min": 300
@@ -7176,7 +7200,7 @@
 			"WildSpawnType": "pmcBot",
 			"isPlayers": true,
 			"number": 0,
-			"slots_max": 4,
+			"slots_max": 2,
 			"slots_min": 0,
 			"time_max": 600,
 			"time_min": 150
@@ -7188,7 +7212,19 @@
 			"WildSpawnType": "pmcBot",
 			"isPlayers": true,
 			"number": 0,
-			"slots_max": 3,
+			"slots_max": 2,
+			"slots_min": 0,
+			"time_max": 1800,
+			"time_min": 900
+		},
+		{
+			"BotPreset": "normal",
+			"BotSide": "Savage",
+			"SpawnPoints": "",
+			"WildSpawnType": "pmcBot",
+			"isPlayers": true,
+			"number": 0,
+			"slots_max": 2,
 			"slots_min": 0,
 			"time_max": 1800,
 			"time_min": 900
@@ -7201,18 +7237,6 @@
 			"isPlayers": true,
 			"number": 0,
 			"slots_max": 3,
-			"slots_min": 0,
-			"time_max": 1800,
-			"time_min": 900
-		},
-		{
-			"BotPreset": "normal",
-			"BotSide": "Savage",
-			"SpawnPoints": "",
-			"WildSpawnType": "pmcBot",
-			"isPlayers": true,
-			"number": 0,
-			"slots_max": 4,
 			"slots_min": 0,
 			"time_max": 2400,
 			"time_min": 1800
@@ -7224,7 +7248,7 @@
 			"WildSpawnType": "pmcBot",
 			"isPlayers": true,
 			"number": 0,
-			"slots_max": 4,
+			"slots_max": 3,
 			"slots_min": 0,
 			"time_max": 2400,
 			"time_min": 1800

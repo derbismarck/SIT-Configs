@@ -8552,14 +8552,25 @@
             "time_max": 150,
             "time_min": 140
         }, {
+            "BotPreset": "hard",
+            "BotSide": "Savage",
+            "SpawnPoints": "ZoneGasStation",
+            "WildSpawnType": "arenafighterevent",
+            "isPlayers": true,
+            "number": 2,
+            "slots_max": 2,
+            "slots_min": 0,
+            "time_max": 11,
+            "time_min": 5
+        }, {
             "BotPreset": "normal",
             "BotSide": "Savage",
             "SpawnPoints": "ZoneGasStation",
-            "WildSpawnType": "assault",
+            "WildSpawnType": "arenafighterevent",
             "isPlayers": true,
             "number": 2,
-            "slots_max": 4,
-            "slots_min": 2,
+            "slots_max": 3,
+            "slots_min": 0,
             "time_max": 11,
             "time_min": 5
         }, {

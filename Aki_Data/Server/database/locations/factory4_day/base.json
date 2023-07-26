@@ -3890,10 +3890,22 @@
       "time_min": 1600
     },
 	{
-		"BotPreset": "normal",
+		"BotPreset": "easy",
 		"BotSide": "Savage",
 		"SpawnPoints": "",
 		"WildSpawnType": "pmcBot",
+		"isPlayers": true,
+		"number": 0,
+		"slots_max": 4,
+		"slots_min": 0,
+		"time_max": 11,
+		"time_min": 0
+	},
+	{
+		"BotPreset": "normal",
+		"BotSide": "Savage",
+		"SpawnPoints": "",
+		"WildSpawnType": "arenafighterevent",
 		"isPlayers": true,
 		"number": 0,
 		"slots_max": 2,
@@ -3905,10 +3917,22 @@
 		"BotPreset": "normal",
 		"BotSide": "Savage",
 		"SpawnPoints": "",
-		"WildSpawnType": "pmcBot",
+		"WildSpawnType": "arenafighterevent",
 		"isPlayers": true,
 		"number": 0,
 		"slots_max": 2,
+		"slots_min": 0,
+		"time_max": 900,
+		"time_min": 90
+	},
+	{
+		"BotPreset": "hard",
+		"BotSide": "Savage",
+		"SpawnPoints": "",
+		"WildSpawnType": "pmcBot",
+		"isPlayers": true,
+		"number": 0,
+		"slots_max": 1,
 		"slots_min": 0,
 		"time_max": 11,
 		"time_min": 0
@@ -3920,7 +3944,7 @@
 		"WildSpawnType": "pmcBot",
 		"isPlayers": true,
 		"number": 0,
-		"slots_max": 2,
+		"slots_max": 1,
 		"slots_min": 0,
 		"time_max": 900,
 		"time_min": 300
@@ -3932,7 +3956,7 @@
 		"WildSpawnType": "pmcBot",
 		"isPlayers": true,
 		"number": 0,
-		"slots_max": 2,
+		"slots_max": 1,
 		"slots_min": 0,
 		"time_max": 900,
 		"time_min": 300
