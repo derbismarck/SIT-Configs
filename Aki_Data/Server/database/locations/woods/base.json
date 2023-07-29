@@ -60,7 +60,7 @@
 			"number": 1,
 			"slots_max": 2,
 			"slots_min": 0,
-			"time_max": 1,
+			"time_max": 900,
 			"time_min": 0
 		},{
 			"BotPreset": "easy",
@@ -71,7 +71,7 @@
 			"number": 1,
 			"slots_max": 2,
 			"slots_min": 0,
-			"time_max": 1,
+			"time_max": 900,
 			"time_min": 0
 		},{
             "number": 0,
@@ -359,8 +359,8 @@
 			"number": 0,
 			"slots_max": 3,
 			"slots_min": 0,
-			"time_max": 11,
-			"time_min": 0
+			"time_max": 900,
+			"time_min": 300
 		},
 		{
 			"BotPreset": "easy",
@@ -371,8 +371,8 @@
 			"number": 0,
 			"slots_max": 3,
 			"slots_min": 0,
-			"time_max": 11,
-			"time_min": 0
+			"time_max": 1200,
+			"time_min": 600
 		},
 		{
 			"BotPreset": "hard",
@@ -383,8 +383,8 @@
 			"number": 0,
 			"slots_max": 1,
 			"slots_min": 0,
-			"time_max": 11,
-			"time_min": 0
+			"time_max": 2100,
+			"time_min": 900
 		},
 		{
 			"BotPreset": "easy",
@@ -395,8 +395,8 @@
 			"number": 0,
 			"slots_max": 4,
 			"slots_min": 0,
-			"time_max": 11,
-			"time_min": 0
+			"time_max": 3000,
+			"time_min": 2100
 		},
 		{
 			"BotPreset": "hard",
@@ -407,8 +407,8 @@
 			"number": 0,
 			"slots_max": 1,
 			"slots_min": 0,
-			"time_max": 11,
-			"time_min": 0
+			"time_max": 3600,
+			"time_min": 3000
 		},
 		{
 			"BotPreset": "hard",
@@ -419,32 +419,8 @@
 			"number": 0,
 			"slots_max": 1,
 			"slots_min": 0,
-			"time_max": 11,
-			"time_min": 0
-		},
-		{
-			"BotPreset": "normal",
-			"BotSide": "Savage",
-			"SpawnPoints": "",
-			"WildSpawnType": "pmcBot",
-			"isPlayers": true,
-			"number": 0,
-			"slots_max": 3,
-			"slots_min": 0,
-			"time_max": 1500,
-			"time_min": 1200
-		},
-		{
-			"BotPreset": "normal",
-			"BotSide": "Savage",
-			"SpawnPoints": "",
-			"WildSpawnType": "pmcBot",
-			"isPlayers": true,
-			"number": 0,
-			"slots_max": 3,
-			"slots_min": 0,
-			"time_max": 1500,
-			"time_min": 1200
+			"time_max": 3600,
+			"time_min": 3000
 		}
     ],
     "limits": [],

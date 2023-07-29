@@ -6734,7 +6734,7 @@
 			"number": 1,
 			"slots_max": 4,
 			"slots_min": 0,
-			"time_max": 1,
+			"time_max": 900,
 			"time_min": 0
 		},{
             "BotPreset": "normal",
@@ -7178,8 +7178,8 @@
 			"number": 0,
 			"slots_max": 2,
 			"slots_min": 0,
-			"time_max": 900,
-			"time_min": 300
+			"time_max": 1200,
+			"time_min": 600
 		},
 		{
 			"BotPreset": "normal",
