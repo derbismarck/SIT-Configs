@@ -131,12 +131,7 @@
         "5645bcc04bdc2d363b8b4572": 1
       },
       "FaceCover": {
-        "5ab8f4ff86f77431c60d91ba": 1,
-        "5b432f3d5acfc4704b4a1dfb": 1,
-        "60363c0c92ec1c31037959f5": 1,
-        "572b7fa524597762b747ce82": 1,
-        "5fd8d28367cb5e077335170f": 1,
-        "5ab8f39486f7745cd93a1cca": 1
+        "5b4326435acfc433000ed01d": 1
       },
       "ArmorVest": {
         "5c0e625a86f7742d77340f62": 1,
@@ -157,7 +152,9 @@
         "603409c80ca681766b6a0fb2": 1,
         "59e770b986f7742cbd762754": 1
       },
-      "ArmBand": {},
+      "ArmBand": {
+		"5b3f3ade86f7746b6b790d8e": 1
+	  },
       "TacticalVest": {
         "60a621c49c197e4e8c4455e6": 1,
         "5d5d85c586f774279a21cbdb": 1,
@@ -3310,10 +3307,10 @@
     "equipment": {
       "Headwear": 92,
       "Earpiece": 57,
-      "FaceCover": 75,
+      "FaceCover": 100,
       "ArmorVest": 71,
       "Eyewear": 96,
-      "ArmBand": 0,
+      "ArmBand": 100,
       "TacticalVest": 100,
       "Backpack": 71,
       "FirstPrimaryWeapon": 100,
