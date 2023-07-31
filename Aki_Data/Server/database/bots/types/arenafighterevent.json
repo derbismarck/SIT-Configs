@@ -1,12 +1,7 @@
 {
   "appearance": {
     "body": {
-      "5df8a10486f77412672a1e3a": 1,
-      "5fd1eb3fbe3b7107d66cb645": 1,
-      "5e9da1d086f774054a667134": 1,
-      "5e4bb3ee86f77406975c934e": 1,
-      "5d5e7e7586f77427997cfb7f": 1,
-      "5d5e7e8386f774393602d6fa": 1
+      "5e4bb3ee86f77406975c934e": 1
     },
     "feet": {
       "5d5e7f4986f7746956659f8a": 1,
@@ -17,11 +12,7 @@
       "5f5e41576760b4138443b344": 1
     },
     "hands": [
-      "5df8eac086f77412640e2ea7",
-      "5fd78fe9e3bfcf6cab4c9f54",
-      "5e9da2dd86f774054e7d0f63",
-      "5e4bb49586f77406a313ec5a",
-      "5cc2e68f14c02e28b47de290"
+      "5e4bb49586f77406a313ec5a"
     ],
     "head": [
       "5cc2e4d014c02e000d0115f8",
@@ -60,38 +51,36 @@
       "min": 36,
       "max": 40
     },
-    "BodyParts": [
-      {
-        "Head": {
-          "min": 45,
-          "max": 45
-        },
-        "Chest": {
-          "min": 160,
-          "max": 160
-        },
-        "Stomach": {
-          "min": 130,
-          "max": 130
-        },
-        "LeftArm": {
-          "min": 100,
-          "max": 100
-        },
-        "RightArm": {
-          "min": 100,
-          "max": 100
-        },
-        "LeftLeg": {
-          "min": 110,
-          "max": 110
-        },
-        "RightLeg": {
-          "min": 110,
-          "max": 110
-        }
-      }
-    ]
+	"BodyParts": [{
+		"Chest": {
+			"max": 85,
+			"min": 85
+		},
+		"Head": {
+			"max": 35,
+			"min": 35
+		},
+		"LeftArm": {
+			"max": 60,
+			"min": 60
+		},
+		"LeftLeg": {
+			"max": 65,
+			"min": 65
+		},
+		"RightArm": {
+			"max": 60,
+			"min": 60
+		},
+		"RightLeg": {
+			"max": 65,
+			"min": 65
+		},
+		"Stomach": {
+			"max": 70,
+			"min": 70
+		}
+	}]
   },
   "skills": {
     "Common": {
@@ -108,20 +97,8 @@
   "inventory": {
     "equipment": {
       "Headwear": {
-        "5aa2ba19e5b5b00014028f4e": 1,
-        "5b40e4035acfc47a87740943": 1,
-        "61bca7cda0eae612383adf57": 1,
-        "5aa2b8d7e5b5b00014028f4a": 1,
-        "5f60b34a41e30a4ab12a6947": 1,
-        "5ea17ca01412a1425304d1c0": 1,
-        "5645bc214bdc2d363b8b4571": 1,
-        "5aa7d193e5b5b000171d063f": 1,
-        "5b40e3f35acfc40016388218": 1,
-        "5b40e2bc5acfc40016388216": 1,
-        "5b40e1525acfc4771e1c6611": 1,
-        "5ac8d6885acfc400180ae7b0": 1,
-        "5aa7e4a4e5b5b000137b76f2": 1,
-        "5a154d5cfcdbcb001a3b00da": 1
+        "5b4329075acfc400153b78ff": 1,
+        "60a7acf20c5cb24b01346648": 1
       },
       "Earpiece": {
         "5b432b965acfc47a8774094e": 1,
@@ -3294,7 +3271,7 @@
   },
   "chances": {
     "equipment": {
-      "Headwear": 92,
+      "Headwear": 100,
       "Earpiece": 57,
       "FaceCover": 100,
       "ArmorVest": 71,
