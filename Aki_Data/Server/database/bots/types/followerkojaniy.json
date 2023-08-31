@@ -132,7 +132,8 @@
         "5ca20abf86f77418567a43f2": 1,
         "59e7643b86f7742cbf2c109a": 1,
         "5e4abfed86f77406a2713cf7": 1,
-        "592c2d1a86f7746dbe2af32a": 1
+        "592c2d1a86f7746dbe2af32a": 1,
+        "64be7110bf597ba84a0a41ea": 1
       },
       "Backpack": {
         "5ab8ee7786f7742d8f33f0b9": 1,
@@ -145,7 +146,9 @@
         "5c46fbd72e2216398b5a8c9c": 1,
         "57838ad32459774a17445cd2": 1,
         "5ae08f0a5acfc408fb1398a1": 1,
-        "5df8ce05b11454561e39243b": 1
+        "5df8ce05b11454561e39243b": 1,
+        "5aafa857e5b5b00018480968": 1,
+        "643ea5b23db6f9f57107d9fd": 1
       },
       "SecondPrimaryWeapon": {
         "56dee2bdd2720bc8328b4567": 1,
@@ -157,7 +160,7 @@
         "5c012ffc0db834001d23f03f": 1
       },
       "Pockets": {
-        "557ffd194bdc2d28148b457f": 1
+        "60c7272c204bc17802313365": 1
       },
       "SecuredContainer": {
         "5c0a794586f77461c458f892": 1
@@ -166,18 +169,24 @@
     "Ammo": {
       "Caliber762x51": {
         "5e023e88277cce2b522ff2b1": 1,
-        "5e023e53d4353e3302577c4c": 1
+        "5e023e53d4353e3302577c4c": 1,
+        "58dd3ad986f77403051cba8f": 1
       },
       "Caliber12g": {
         "560d5e524bdc2d25448b4571": 1
       },
       "Caliber762x39": {
         "59e0d99486f7744a32234762": 1,
-        "59e4d3d286f774176a36250a": 1
+        "59e4d3d286f774176a36250a": 1,
+        "64b7af5a8532cf95ee0a0dbd": 1,
+        "64b7af434b75259c590fa893": 1
       },
       "Caliber762x54R": {
         "59e77a2386f7742ee578960a": 1,
-        "560d61e84bdc2da74d8b4571": 1
+        "560d61e84bdc2da74d8b4571": 1,
+        "64b8f7c241772715af0f9c3d": 1,
+        "64b8f7968532cf95ee0a0dbf": 1,
+        "64b8f7b5389d7ffd620ccba2": 1
       },
       "Caliber9x39": {
         "57a0e5022459774d1673f889": 1
@@ -487,6 +496,83 @@
           "591c4efa86f7741030027726",
           "5c0505e00db834001b735073"
         ]
+      },
+      "5aafa857e5b5b00018480968": {
+        "mod_barrel": [
+          "5aaf9d53e5b5b00015042a52"
+        ],
+        "mod_sight_rear": [
+          "5abcbb20d8ce87001773e258"
+        ],
+        "mod_stock": [
+          "5addbf175acfc408fb13965b"
+        ],
+        "mod_mount": [
+          "5addbfef5acfc400185c2857"
+        ],
+        "mod_magazine": [
+          "64b9e2037fdfb81df81e3c25"
+        ]
+      },
+      "5aaf9d53e5b5b00015042a52": {
+        "mod_muzzle": [
+          "5aafa1c2e5b5b00015042a56"
+        ]
+      },
+      "5aafa1c2e5b5b00015042a56": {
+        "mod_sight_front": [
+          "5aafa49ae5b5b00015042a58"
+        ]
+      },
+      "5addbf175acfc408fb13965b": {
+        "mod_mount": [
+          "5addbfd15acfc40015621bde"
+        ]
+      },
+      "5addbfef5acfc400185c2857": {
+        "mod_scope": [
+          "57c69dd424597774c03b7bbc"
+        ]
+      },
+      "57c69dd424597774c03b7bbc": {
+        "mod_scope": [
+          "617151c1d92c473c770214ab"
+        ]
+      },
+      "643ea5b23db6f9f57107d9fd": {
+        "mod_stock": [
+          "6410745d5dd49d77bd078485"
+        ],
+        "mod_barrel": [
+          "6410758c857473525b08bb77"
+        ],
+        "mod_reciever": [
+          "64119cdbdcf48d656f0aa272"
+        ],
+        "mod_scope": [
+          "641dc35e19604f20c800be18"
+        ],
+        "mod_magazine": [
+          "6422e1ea3c0f06190302161a"
+        ]
+      },
+      "6410758c857473525b08bb77": {
+        "mod_muzzle": [
+          "64119d1f2c6d6f921a0929f8"
+        ],
+        "mod_sight_rear": [
+          "64119d90dcf48d656f0aa275"
+        ]
+      },
+      "64119d1f2c6d6f921a0929f8": {
+        "mod_sight_front": [
+          "64119d672c6d6f921a0929fb"
+        ]
+      },
+      "641dc35e19604f20c800be18": {
+        "mod_scope": [
+          "5b3f7c1c5acfc40dc5296b1d"
+        ]
       }
     },
     "items": {
@@ -504,7 +590,12 @@
         "5df8a77486f77412672a1e3f",
         "59e77a2386f7742ee578960a",
         "560d61e84bdc2da74d8b4571",
-        "5710c24ad2720bc3458b45a3"
+        "5710c24ad2720bc3458b45a3",
+        "64b8f7c241772715af0f9c3d",
+        "64b9e2037fdfb81df81e3c25",
+        "6422e1ea3c0f06190302161a",
+        "64b8f7b5389d7ffd620ccba2",
+        "64b8f7968532cf95ee0a0dbf"
       ],
       "Backpack": [
         "5c0fa877d174af02a012e1cf",
@@ -664,7 +755,17 @@
         "619cbfccbedcde2f5b3f7bdd",
         "5909e99886f7740c983b9984",
         "5bc9c377d4351e3bac12251b",
-        "5733279d245977289b77ec24"
+        "5733279d245977289b77ec24",
+        "57347c2e24597744902c94a1",
+        "5e2af29386f7746d4159f077",
+        "5e54f6af86f7742199090bf3",
+        "56742c324bdc2d150f8b456d",
+        "5d03784a86f774203e7e0c4d",
+        "5734758f24597738025ee253",
+        "5d4042a986f7743185265463",
+        "590de7e986f7741b096e5f32",
+        "637b6251104668754b72f8f9",
+        "62a0a0bb621468534a797ad5"
       ],
       "SecuredContainer": [
         "5e023e88277cce2b522ff2b1",
@@ -674,7 +775,13 @@
         "57a0e5022459774d1673f889",
         "560d61e84bdc2da74d8b4571",
         "5e023e53d4353e3302577c4c",
-        "59e4d3d286f774176a36250a"
+        "59e4d3d286f774176a36250a",
+        "64b7af5a8532cf95ee0a0dbd",
+        "64b7af434b75259c590fa893",
+        "64b8f7c241772715af0f9c3d",
+        "64b8f7968532cf95ee0a0dbf",
+        "64b8f7b5389d7ffd620ccba2",
+        "58dd3ad986f77403051cba8f"
       ],
       "SpecialLoot": []
     }
@@ -2679,11 +2786,11 @@
       "Headwear": 81,
       "Earpiece": 31,
       "FaceCover": 100,
-      "ArmorVest": 92,
+      "ArmorVest": 91,
       "Eyewear": 0,
       "ArmBand": 0,
       "TacticalVest": 100,
-      "Backpack": 88,
+      "Backpack": 87,
       "FirstPrimaryWeapon": 100,
       "SecondPrimaryWeapon": 93,
       "Holster": 0,
@@ -2693,22 +2800,22 @@
     },
     "mods": {
       "mod_reciever": 100,
-      "mod_sight_rear": 77,
+      "mod_sight_rear": 78,
       "mod_magazine": 100,
       "mod_mount": 50,
       "mod_muzzle": 28,
       "mod_tactical": 27,
-      "mod_mount_000": 54,
+      "mod_mount_000": 55,
       "mod_tactical_001": 49,
       "mod_tactical_002": 16,
       "mod_tactical_003": 0,
-      "mod_scope": 57,
+      "mod_scope": 56,
       "mod_tactical_000": 64,
       "mod_nvg": 100,
       "mod_mount_001": 9,
       "mod_stock": 100,
-      "mod_mount_002": 73,
-      "mod_sight_front": 56,
+      "mod_mount_002": 72,
+      "mod_sight_front": 57,
       "mod_foregrip": 0,
       "mod_charge": 0,
       "mod_mount_004": 73,
@@ -2719,32 +2826,91 @@
   "generation": {
     "items": {
       "specialItems": {
-        "min": 0,
-        "max": 0
+        "weights": {
+          "0": 1,
+          "1": 0
+        },
+        "whitelist": []
       },
       "healing": {
-        "min": 1,
-        "max": 2
+        "weights": {
+          "0": 1,
+          "1": 2,
+          "2": 1
+        },
+        "whitelist": []
       },
       "drugs": {
-        "min": 0,
-        "max": 1
+        "weights": {
+          "0": 1,
+          "1": 2,
+          "2": 0
+        },
+        "whitelist": []
       },
       "stims": {
-        "min": 0,
-        "max": 1
+        "weights": {
+          "0": 2,
+          "1": 1,
+          "2": 0
+        },
+        "whitelist": []
       },
-      "looseLoot": {
-        "min": 1,
-        "max": 4
+      "backpackLoot": {
+        "weights": {
+          "0": 1,
+          "1": 1,
+          "2": 2,
+          "3": 1,
+          "4": 1,
+          "5": 1,
+          "6": 1,
+          "7": 0
+        },
+        "whitelist": []
+      },
+      "pocketLoot": {
+        "weights": {
+          "0": 1,
+          "1": 6,
+          "2": 3,
+          "3": 1,
+          "4": 1
+        },
+        "whitelist": []
+      },
+      "vestLoot": {
+        "weights": {
+          "0": 1,
+          "1": 1,
+          "2": 2,
+          "3": 1,
+          "4": 0,
+          "5": 0,
+          "6": 0
+        },
+        "whitelist": []
       },
       "magazines": {
-        "min": 2,
-        "max": 4
+        "weights": {
+          "0": 0,
+          "1": 0,
+          "2": 1,
+          "3": 3,
+          "4": 1
+        },
+        "whitelist": []
       },
       "grenades": {
-        "min": 0,
-        "max": 5
+        "weights": {
+          "0": 1,
+          "1": 2,
+          "2": 1,
+          "3": 1,
+          "4": 0,
+          "5": 0
+        },
+        "whitelist": []
       }
     }
   }

@@ -38,8 +38,8 @@
       "max": 1
     },
     "reward": {
-      "min": 275,
-      "max": 275
+      "min": 250,
+      "max": 250
     },
     "standingForKill": 0,
     "aggressorBonus": 0
@@ -266,9 +266,9 @@
         "5d3eb3b0a4b93615055e84d2": 1
       },
       "Scabbard": {},
-	  "Pockets": {
-	    "60c7272c204bc17802313365": 1
-	  },
+      "Pockets": {
+        "60c7272c204bc17802313365": 1
+      },
       "SecuredContainer": {
         "5c0a794586f77461c458f892": 1
       }
@@ -4109,38 +4109,98 @@
       "mod_muzzle_000": 45,
       "mod_muzzle_001": 0,
       "mod_pistol_grip": 0,
-      "mod_equipment_002": 7
+      "mod_equipment_002": 10,
+      "mod_stock_001": 100
     }
   },
   "generation": {
     "items": {
       "specialItems": {
-        "min": 0,
-        "max": 0
+        "weights": {
+          "0": 1,
+          "1": 0
+        },
+        "whitelist": []
       },
       "healing": {
-        "min": 1,
-        "max": 1
+        "weights": {
+          "0": 1,
+          "1": 2,
+          "2": 1
+        },
+        "whitelist": []
       },
       "drugs": {
-        "min": 0,
-        "max": 1
+        "weights": {
+          "0": 1,
+          "1": 2,
+          "2": 0
+        },
+        "whitelist": []
       },
       "stims": {
-        "min": 0,
-        "max": 1
+        "weights": {
+          "0": 2,
+          "1": 1,
+          "2": 0
+        },
+        "whitelist": []
       },
-      "looseLoot": {
-        "min": 1,
-        "max": 4
+      "backpackLoot": {
+        "weights": {
+          "0": 1,
+          "1": 1,
+          "2": 2,
+          "3": 1,
+          "4": 1,
+          "5": 1,
+          "6": 1,
+          "7": 0
+        },
+        "whitelist": []
+      },
+      "pocketLoot": {
+        "weights": {
+          "0": 1,
+          "1": 6,
+          "2": 3,
+          "3": 1,
+          "4": 1
+        },
+        "whitelist": []
+      },
+      "vestLoot": {
+        "weights": {
+          "0": 1,
+          "1": 3,
+          "2": 5,
+          "3": 1,
+          "4": 1,
+          "5": 1,
+          "6": 1
+        },
+        "whitelist": []
       },
       "magazines": {
-        "min": 2,
-        "max": 4
+        "weights": {
+          "0": 0,
+          "1": 0,
+          "2": 1,
+          "3": 3,
+          "4": 2
+        },
+        "whitelist": []
       },
       "grenades": {
-        "min": 0,
-        "max": 3
+        "weights": {
+          "0": 1,
+          "1": 1,
+          "2": 5,
+          "3": 2,
+          "4": 1,
+          "5": 1
+        },
+        "whitelist": []
       }
     }
   }

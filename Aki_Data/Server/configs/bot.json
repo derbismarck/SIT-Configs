@@ -23,6 +23,7 @@
         "followerBigPipe": 5,
         "followerZryachiy": 15,
         "followerTest": 10,
+        "followerBoar": 15,
         "marksman": 30,
         "pmcBot": 50,
         "sectantPriest": 10,
@@ -31,10 +32,14 @@
         "test": 30,
         "exUsec": 30,
         "arenaFighterEvent": 15,
+        "arenaFighter": 15,
+        "crazyAssaultEvent": 15,
+        "bossBoar": 5,
+        "bossBoarSniper": 5,
         "sptUsec": 20,
         "sptBear": 20
     },
-    "bosses": ["bossbully", "bossgluhar", "bosskilla", "bosskojaniy", "bosssanitar", "bosstagilla", "bossknight", "bossZryachiy"],
+    "bosses": ["bossbully", "bossgluhar", "bosskilla", "bosskojaniy", "bosssanitar", "bosstagilla", "bossknight", "bossZryachiy", "bossBoar", "bossBoarSniper"],
     "durability": {
         "default": {
             "armor": {
@@ -164,6 +169,34 @@
                 "minLimitPercent": 15
             }
         },
+        "arenafighter": {
+            "armor": {
+                "maxDelta": 10,
+                "minDelta": 0,
+                "minLimitPercent": 15
+            },
+            "weapon": {
+                "lowestMax": 80,
+                "highestMax": 100,
+                "maxDelta": 10,
+                "minDelta": 0,
+                "minLimitPercent": 15
+            }
+        },
+        "crazyassaultevent": {
+            "armor": {
+                "maxDelta": 50,
+                "minDelta": 0,
+                "minLimitPercent": 15
+            },
+            "weapon": {
+                "lowestMax": 85,
+                "highestMax": 100,
+                "maxDelta": 45,
+                "minDelta": 30,
+                "minLimitPercent": 15
+            }
+        },
         "exusec": {
             "armor": {
                 "maxDelta": 10,
@@ -209,10 +242,48 @@
     },
     "lootNValue": {
         "scav": 4,
-        "pmc": 3
+        "pmc": 3,
+        "assault": 4,
+        "marksman": 4,
+        "arenafighterevent": 4,
+        "arenafighter": 4,
+        "crazyassaultevent": 4,
+        "bossbully": 4,
+        "sptbear": 3,
+        "sptusec": 3,
+        "bossgluhar": 3,
+        "bosskilla": 3,
+        "bossknight": 3,
+        "bosskojaniy": 3,
+        "bosssanitar": 3,
+        "bosstagilla": 3,
+        "bosstest": 4,
+        "bosszryachiy": 3,
+        "bossboar": 3,
+        "bossboarsniper": 3,
+        "cursedassault": 4,
+        "exusec": 4,
+        "followerbigpipe": 4,
+        "followerbirdeye": 4,
+        "followerbully": 4,
+        "followergluharassault": 4,
+        "followergluharscout": 4,
+        "followergluharsecurity": 4,
+        "followergluharsnipe": 4,
+        "followerkojaniy": 4,
+        "followersanitar": 4,
+        "followertagilla": 4,
+        "followertest": 4,
+        "followerzryachiy": 4,
+        "followerboar": 4,
+        "gifter": 4,
+        "pmcbot": 4,
+        "sectantpriest": 4,
+        "sectantwarrior": 4,
+        "test": 4
     },
     "chanceAssaultScavHasPlayerScavName": 10,
-    "secureContainerAmmoStackCount": 15,
+    "secureContainerAmmoStackCount": 20,
     "revenge": {
         "assault": ["assault", "marksman", "gifter"],
         "marksman": ["assault", "marksman", "gifter"]
@@ -247,13 +318,18 @@
         "followerbigpipe": {},
         "followerzryachiy": {},
         "followertest": {},
+        "followerboar": {},
         "sectantpriest": {},
         "sectantwarrior": {},
         "test": {},
         "pmcbot": {},
         "arenafighterevent": {},
+        "arenafighter": {},
+        "crazyassaultevent": {},
         "assaultgroup": {},
         "gifter": {},
+        "bossboar": {},
+        "bossboarsniper": {},
         "pmc": {
             "5c99f98d86f7745c314214b3": 1,
             "5c164d2286f774194c5e69fa": 1,
@@ -393,6 +469,13 @@
             "lightIsActiveNightChancePercent": 85,
             "laserIsActiveChancePercent": 85
         },
+        "bossboar": {
+            "nvgIsActiveChanceDayPercent": 10,
+            "nvgIsActiveChanceNightPercent": 90,
+            "lightIsActiveDayChancePercent": 25,
+            "lightIsActiveNightChancePercent": 85,
+            "laserIsActiveChancePercent": 85
+        },
         "bosstest": {},
         "followerbully": {
             "faceShieldIsActiveChancePercent": 100,
@@ -468,6 +551,30 @@
             "lightIsActiveNightChancePercent": 85,
             "laserIsActiveChancePercent": 85
         },
+        "followerboar": {
+            "nvgIsActiveChanceDayPercent": 20,
+            "nvgIsActiveChanceNightPercent": 85,
+            "faceShieldIsActiveChancePercent": 80,
+            "lightIsActiveDayChancePercent": 25,
+            "lightIsActiveNightChancePercent": 75,
+            "laserIsActiveChancePercent": 75,
+            "weaponModLimits": {
+                "scopeLimit": 2,
+                "lightLaserLimit": 1
+            }
+        },
+        "bossboarsniper": {
+            "nvgIsActiveChanceDayPercent": 20,
+            "nvgIsActiveChanceNightPercent": 85,
+            "faceShieldIsActiveChancePercent": 80,
+            "lightIsActiveDayChancePercent": 25,
+            "lightIsActiveNightChancePercent": 75,
+            "laserIsActiveChancePercent": 75,
+            "weaponModLimits": {
+                "scopeLimit": 2,
+                "lightLaserLimit": 1
+            }
+        },
         "followertest": {},
         "sectantpriest": {
             "nvgIsActiveChanceDayPercent": 10,
@@ -510,6 +617,30 @@
                 "lightLaserLimit": 1
             }
         },
+        "arenafighter": {
+            "nvgIsActiveChanceDayPercent": 10,
+            "nvgIsActiveChanceNightPercent": 95,
+            "faceShieldIsActiveChancePercent": 100,
+            "lightIsActiveDayChancePercent": 35,
+            "lightIsActiveNightChancePercent": 95,
+            "laserIsActiveChancePercent": 95,
+            "weaponModLimits": {
+                "scopeLimit": 1,
+                "lightLaserLimit": 1
+            }
+        },
+        "crazyassaultevent": {
+            "nvgIsActiveChanceDayPercent": 20,
+            "nvgIsActiveChanceNightPercent": 85,
+            "faceShieldIsActiveChancePercent": 80,
+            "lightIsActiveDayChancePercent": 25,
+            "lightIsActiveNightChancePercent": 75,
+            "laserIsActiveChancePercent": 75,
+            "weaponModLimits": {
+                "scopeLimit": 1,
+                "lightLaserLimit": 1
+            }
+        },
         "assaultgroup": {},
         "gifter": {
             "lightIsActiveDayChancePercent": 25,
@@ -546,12 +677,17 @@
                     },
                     "generation": {
                         "drugs": {
-                            "min": 0,
-                            "max": 1
+                            "weights": {
+                                "0": 1,
+                                "1": 1
+                            },
+                            "whitelist": []
                         },
                         "grenades": {
-                            "min": 0,
-                            "max": 1,
+                            "weights": {
+                                "0": 2,
+                                "1": 1
+                            },
                             "whitelist": [
                                 "5710c24ad2720bc3458b45a3",
                                 "58d3db5386f77426186285a0",
@@ -559,25 +695,69 @@
                             ]
                         },
                         "healing": {
-                            "min": 0,
-                            "max": 1
+                            "weights": {
+                                "0": 1,
+                                "1": 2
+                            },
+                            "whitelist": [
+								"5e831507ea0a7c419c2f9bd9",
+								"5755356824597772cb798962",
+								"590c661e86f7741e566b646a",
+								"590c657e86f77412b013051d",
+								"544fb37f4bdc2dee738b4567",
+								"544fb3364bdc2d34748b456a",
+								"544fb25a4bdc2dfb738b4567"
+							]
                         },
-                        "looseLoot": {
-                            "min": 0,
-                            "max": 5
+                        "backpackLoot": {
+                            "weights": {
+                                "0": 1,
+                                "1": 2,
+                                "2": 4,
+                                "3": 2,
+                                "4": 1,
+                                "5": 1
+                            },
+                            "whitelist": []
+                        },
+                        "pocketLoot": {
+                            "weights": {
+                                "0": 3,
+                                "1": 4,
+                                "2": 1,
+                                "3": 1
+                            },
+                            "whitelist": []
+                        },
+                        "vestLoot": {
+                            "weights": {
+                                "0": 2,
+                                "1": 5,
+                                "2": 1,
+                                "3": 1,
+                                "4": 1
+                            },
+                            "whitelist": []
                         },
                         "magazines": {
-                            "min": 1,
-                            "max": 2
+                            "weights": {
+                                "0": 0,
+                                "1": 2,
+                                "2": 1
+                            },
+                            "whitelist": []
                         },
                         "stims": {
-                            "min": 0,
-                            "max": 0
+                            "weights": {
+                                "0": 1
+                            },
+                            "whitelist": []
                         }
                     },
                     "equipment": {
                         "ArmBand": 90,
                         "FirstPrimaryWeapon": 80,
+                        "SecondPrimaryWeapon": 3,
                         "Holster": 5,
                         "Earpiece": 35,
                         "Eyewear": 5,
@@ -591,7 +771,7 @@
                         "mod_foregrip": 15,
                         "mod_handguard": 25,
                         "mod_launcher": 0,
-                        "mod_magazine": 100,
+                        "mod_magazine": 25,
                         "mod_mount": 15,
                         "mod_mount_000": 15,
                         "mod_mount_001": 15,
@@ -629,10 +809,13 @@
                         "min": 15,
                         "max": 100
                     },
+                    "equipment": {
+                        "SecondPrimaryWeapon": 20
+                    },
                     "randomisedArmorSlots": ["Headwear"],
                     "randomisedWeaponModSlots": ["mod_scope", "mod_scope_000", "mod_scope_001", "mod_scope_002", "mod_scope_003",
-                        "mod_handguard", "mod_muzzle", "mod_bipod",
-                        "mod_muzzle_000", "mod_charge", "mod_reciever",
+                        "mod_handguard", "mod_magazine", "mod_muzzle", "mod_bipod",
+                        "mod_muzzle_000", "mod_charge", "mod_reciever", "mod_hammer",
                         "mod_trigger", "mod_gas_block", "mod_pistol_grip", "mod_pistol_grip_akms", "mod_foregrip",
                         "mod_stock", "mod_stock_000", "mod_stock_001", "mod_stock_akms", "mod_stock_axis",
                         "mod_mount_000", "mod_mount_001", "mod_mount_002", "mod_mount_003", "mod_mount_004", "mod_mount_005", "mod_mount_006",
@@ -734,7 +917,8 @@
                                 "5c0e655586f774045612eeb2": 80,
                                 "5e4abb5086f77406975c9342": 5,
                                 "6038b4ca92ec1c3103795a0d": 5,
-                                "6038b4b292ec1c3103795a0b": 5
+                                "6038b4b292ec1c3103795a0b": 5,
+                                "64be79c487d1510151095552": 100
                             },
                             "TacticalVest": {
                                 "628d0618d1ba6e4fa07ce5a4": 1,
@@ -748,7 +932,9 @@
                                 "5c0e3eb886f7742015526062": 200,
                                 "572b7adb24597762ae139821": 250,
                                 "544a5caa4bdc2d1a388b4568": 50,
-                                "5929a2a086f7744f4b234d43": 150
+                                "5929a2a086f7744f4b234d43": 150,
+                                "64be7095047e826eae02b0c1": 55,
+                                "64be7110bf597ba84a0a41ea": 45
                             },
                             "Headwear": {
                                 "5a7c4850e899ef00150be885": 240,
@@ -784,6 +970,9 @@
                                 "5a38e6bac4a2826c6e06d79b": 90,
                                 "5ea03f7400685063ec28bfa8": 50
                             },
+                            "SecondPrimaryWeapon": {
+                                "5e81ebcd8e146c7080625e15": 0
+                            },
                             "Backpack": {
                                 "544a5cde4bdc2d39388b456b": 100,
                                 "5ca20d5986f774331e7c9602": 100,
@@ -801,6 +990,151 @@
                                 "6033fa48ffd42c541047f728": 45
                             }
 
+                        }
+                    }
+                }, {
+                    "levelRange": {
+                        "min": 30,
+                        "max": 50
+                    },
+                    "equipment": {
+                        "edit": {
+                            "ArmorVest": {
+                                "5ab8e79e86f7742d8b372e78": 35,
+                                "5c0e541586f7747fa54205c9": 35,
+                                "5ca2151486f774244a3b8d30": 35,
+                                "5ca21c6986f77479963115a7": 35,
+                                "5e9dacf986f774054d6b89f4": 35,
+                                "5f5f41476bdad616ad46d631": 35,
+
+                                "5e4abb5086f77406975c9342": 25,
+                                "5fd4c474dd870108a754b241": 25,
+                                "6038b4b292ec1c3103795a0b": 25,
+                                "6038b4ca92ec1c3103795a0d": 25,
+                                "60a283193cb70855c43a381d": 25,
+                                "545cdb794bdc2d3a198b456a": 25
+                            },
+                            "TacticalVest": {
+                                "5b44cad286f77402a54ae7e5": 70,
+                                "5e4ac41886f77406a511c9a8": 70,
+                                "60a3c68c37ea821725773ef5": 45,
+                                "628b9784bcf6e2659e09b8a2": 45,
+                                "628b9c7d45122232a872358f": 45,
+
+                                "609e860ebd219504d8507525": 25,
+                                "628cd624459354321c4b7fa2": 35
+                            },
+                            "Headwear": {
+                                "5aa7e4a4e5b5b000137b76f2": 40,
+                                "5b40e1525acfc4771e1c6611": 40,
+                                "5b40e2bc5acfc40016388216": 40,
+                                "5b40e3f35acfc40016388218": 40,
+                                "5b40e4035acfc47a87740943": 40,
+                                "5d6d3716a4b9361bc8618872": 40,
+                                "5ea17ca01412a1425304d1c0": 40,
+
+                                "5c17a7ed2e2216152142459c": 45,
+                                "5f60c74e3b85f6263c145586": 15
+                            }
+                        }
+                    }
+                }, {
+                    "levelRange": {
+                        "min": 51,
+                        "max": 100
+                    },
+                    "ammo": {
+                        "add": {},
+                        "edit": {
+                            "Caliber545x39": {
+                                "56dff061d2720bb5668b4567": 110,
+                                "61962b617c6c7b169525f168": 60,
+                                "56dff026d2720bb8668b4567": 90,
+                                "5c0d5e4486f77478390952fe": 50
+                            },
+                            "Caliber556x45NATO": {
+                                "601949593ae8f707c4608daa": 40,
+                                "59e690b686f7746c9f75e848": 40
+                            },
+                            "Caliber762x51": {
+                                "5efb0c1bd79ff02a1f5e68d9": 12,
+                                "5a6086ea4f39f99cd479502f": 12,
+                                "5a608bf24f39f98ffc77720e": 12
+                            },
+                            "Caliber762x39": {
+                                "601aa3d2b2bcb34913271e6d": 40,
+                                "59e0d99486f7744a32234762": 50
+                            },
+                            "Caliber1143x23ACP": {
+                                "5efb0cabfb3e451d70735af5": 12
+                            },
+                            "Caliber762x35": {
+                                "5fd20ff893a8961fc660a954": 11
+                            },
+                            "Caliber366TKM": {
+                                "5f0596629e22f464da6bbdd9": 11
+                            },
+                            "Caliber46x30": {
+                                "5ba26835d4351e0035628ff5": 11
+                            },
+                            "Caliber12g": {
+                                "5d6e6911a4b9361bd5780d52": 12,
+                                "5d6e68a8a4b9360b6c0d54e2": 12
+                            },
+                            "Caliber9x18PM": {
+                                "573719df2459775a626ccbc2": 3,
+                                "57371aab2459775a77142f22": 2
+                            },
+                            "Caliber9x19PARA": {
+                                "5efb0da7a29a85116f6ea05f": 11
+                            },
+                            "Caliber127x55": {
+                                "5cadf6eeae921500134b2799": 11
+                            },
+                            "Caliber23x75": {
+                                "5e85aa1a988a8701445df1f5": 3
+                            }
+                        }
+                    },
+                    "equipment": {
+                        "edit": {
+                            "ArmorVest": {
+                                "5ab8e79e86f7742d8b372e78": 40,
+                                "5c0e541586f7747fa54205c9": 40,
+                                "5ca2151486f774244a3b8d30": 40,
+                                "5ca21c6986f77479963115a7": 40,
+                                "5e9dacf986f774054d6b89f4": 40,
+                                "5f5f41476bdad616ad46d631": 40,
+
+                                "5e4abb5086f77406975c9342": 60,
+                                "5fd4c474dd870108a754b241": 60,
+                                "6038b4b292ec1c3103795a0b": 60,
+                                "6038b4ca92ec1c3103795a0d": 60,
+                                "60a283193cb70855c43a381d": 60,
+                                "545cdb794bdc2d3a198b456a": 60
+                            },
+                            "TacticalVest": {
+                                "5b44cad286f77402a54ae7e5": 70,
+                                "5e4ac41886f77406a511c9a8": 70,
+                                "60a3c68c37ea821725773ef5": 70,
+                                "628b9784bcf6e2659e09b8a2": 70,
+                                "628b9c7d45122232a872358f": 70,
+
+                                "609e860ebd219504d8507525": 35,
+                                "628cd624459354321c4b7fa2": 65
+                            },
+                            "Headwear": {
+                                "5aa7e4a4e5b5b000137b76f2": 60,
+                                "5b40e1525acfc4771e1c6611": 60,
+                                "5b40e2bc5acfc40016388216": 60,
+                                "5b40e3f35acfc40016388218": 60,
+                                "5b40e4035acfc47a87740943": 60,
+                                "5d6d3716a4b9361bc8618872": 60,
+                                "5ea17ca01412a1425304d1c0": 60,
+
+                                "5c17a7ed2e2216152142459c": 65,
+                                "5f60c74e3b85f6263c145586": 50
+                            }
                         }
                     }
                 }
@@ -837,6 +1171,18 @@
         }
     },
     "pmc": {
+        "gameVersionWeight": {
+            "standard": 6,
+            "left_behind": 1,
+            "prepare_for_escape": 1,
+            "edge_of_darkness": 4
+        },
+        "accountTypeWeight": {
+            "0": 15,
+            "1": 1,
+            "256": 3,
+            "512": 3
+        },
         "vestLoot": {
             "whitelist": [
                 "5485a8684bdc2da71d8b4567",
@@ -972,6 +1318,7 @@
                 "5448f3ac4bdc2dce718b4569"
             ],
             "blacklist": [
+                "5e99711486f7744bfc4af328",
                 "5fca13ca637ee0341a484f46",
                 "59f32c3b86f77472a31742f0",
                 "59f32bb586f774757e1e8442",
@@ -979,7 +1326,8 @@
                 "5a2a57cfc4a2826c6e06d44a",
                 "619256e5f8af2c1a4e1f5d92",
                 "5a0c27731526d80618476ac4",
-                "6087e570b998180e9f76dc24"
+                "6087e570b998180e9f76dc24",
+                "63495c500c297e20065a08b1"
             ]
         },
         "dynamicLoot": {
@@ -1004,7 +1352,8 @@
                     "bossGluhar": 0,
                     "bossSanitar": 1,
                     "bossTagilla": 1,
-                    "bossZryachiy": 1,
+                    "bossZryachiy": 0,
+                    "bossBoar": 0,
                     "followerGluharAssault": 0,
                     "followerBully": 2,
                     "followerBigPipe": 2,
@@ -1012,6 +1361,9 @@
                     "assault": 5,
                     "cursedAssault": 1,
                     "exUsec": 5,
+                    "arenaFighter": 0,
+                    "arenaFighterEvent": 0,
+                    "crazyAssaultEvent": 3,
                     "pmcBot": 5
                 },
                 "factory4_night": {
@@ -1020,7 +1372,8 @@
                     "bossGluhar": 0,
                     "bossSanitar": 1,
                     "bossTagilla": 1,
-                    "bossZryachiy": 1,
+                    "bossZryachiy": 0,
+                    "bossBoar": 0,
                     "followerGluharAssault": 0,
                     "followerBully": 2,
                     "followerBigPipe": 2,
@@ -1028,6 +1381,9 @@
                     "assault": 5,
                     "cursedAssault": 1,
                     "exUsec": 5,
+                    "arenaFighter": 0,
+                    "arenaFighterEvent": 0,
+                    "crazyAssaultEvent": 3,
                     "pmcBot": 5
                 },
                 "bigmap": {
@@ -1036,6 +1392,8 @@
                     "bossGluhar": 0,
                     "bossSanitar": 1,
                     "bossTagilla": 1,
+                    "bossZryachiy": 0,
+                    "bossBoar": 0,
                     "followerGluharAssault": 0,
                     "followerBully": 2,
                     "followerBigPipe": 2,
@@ -1043,6 +1401,9 @@
                     "assault": 5,
                     "cursedAssault": 1,
                     "exUsec": 5,
+                    "arenaFighter": 0,
+                    "arenaFighterEvent": 0,
+                    "crazyAssaultEvent": 3,
                     "pmcBot": 5
                 },
                 "laboratory": {
@@ -1051,6 +1412,8 @@
                     "bossGluhar": 0,
                     "bossSanitar": 1,
                     "bossTagilla": 1,
+                    "bossZryachiy": 0,
+                    "bossBoar": 0,
                     "followerGluharAssault": 0,
                     "followerBully": 2,
                     "followerBigPipe": 2,
@@ -1058,6 +1421,9 @@
                     "assault": 5,
                     "cursedAssault": 1,
                     "exUsec": 5,
+                    "arenaFighter": 0,
+                    "arenaFighterEvent": 0,
+                    "crazyAssaultEvent": 3,
                     "pmcBot": 5
                 },
                 "woods": {
@@ -1067,6 +1433,8 @@
                     "bossSanitar": 1,
                     "bossTagilla": 1,
                     "bossKojaniy": 0,
+                    "bossZryachiy": 0,
+                    "bossBoar": 0,
                     "followerGluharAssault": 0,
                     "followerBully": 2,
                     "followerBigPipe": 2,
@@ -1074,6 +1442,9 @@
                     "assault": 5,
                     "cursedAssault": 1,
                     "exUsec": 5,
+                    "arenaFighter": 0,
+                    "arenaFighterEvent": 0,
+                    "crazyAssaultEvent": 3,
                     "pmcBot": 5
                 },
                 "interchange": {
@@ -1082,6 +1453,8 @@
                     "bossGluhar": 0,
                     "bossSanitar": 1,
                     "bossTagilla": 1,
+                    "bossZryachiy": 0,
+                    "bossBoar": 0,
                     "followerGluharAssault": 0,
                     "followerBully": 2,
                     "followerBigPipe": 2,
@@ -1089,6 +1462,9 @@
                     "assault": 5,
                     "cursedAssault": 1,
                     "exUsec": 5,
+                    "arenaFighter": 0,
+                    "arenaFighterEvent": 0,
+                    "crazyAssaultEvent": 3,
                     "pmcBot": 5
                 },
                 "lighthouse": {
@@ -1097,6 +1473,8 @@
                     "bossGluhar": 0,
                     "bossSanitar": 1,
                     "bossTagilla": 1,
+                    "bossZryachiy": 0,
+                    "bossBoar": 0,
                     "followerGluharAssault": 0,
                     "followerBully": 2,
                     "followerBigPipe": 2,
@@ -1104,6 +1482,9 @@
                     "assault": 5,
                     "cursedAssault": 1,
                     "exUsec": 5,
+                    "arenaFighter": 0,
+                    "arenaFighterEvent": 0,
+                    "crazyAssaultEvent": 3,
                     "pmcBot": 5
                 },
                 "rezervbase": {
@@ -1112,6 +1493,8 @@
                     "bossGluhar": 0,
                     "bossSanitar": 1,
                     "bossTagilla": 1,
+                    "bossZryachiy": 0,
+                    "bossBoar": 0,
                     "followerGluharAssault": 0,
                     "followerBully": 2,
                     "followerBigPipe": 2,
@@ -1119,6 +1502,9 @@
                     "assault": 5,
                     "cursedAssault": 1,
                     "exUsec": 5,
+                    "arenaFighter": 0,
+                    "arenaFighterEvent": 0,
+                    "crazyAssaultEvent": 3,
                     "pmcBot": 5
                 },
                 "shoreline": {
@@ -1127,6 +1513,8 @@
                     "bossGluhar": 0,
                     "bossSanitar": 1,
                     "bossTagilla": 1,
+                    "bossZryachiy": 0,
+                    "bossBoar": 0,
                     "followerGluharAssault": 0,
                     "followerBully": 2,
                     "followerBigPipe": 2,
@@ -1134,6 +1522,9 @@
                     "assault": 5,
                     "cursedAssault": 1,
                     "exUsec": 5,
+                    "arenaFighter": 0,
+                    "arenaFighterEvent": 0,
+                    "crazyAssaultEvent": 3,
                     "pmcBot": 5
                 },
                 "tarkovstreets": {
@@ -1142,6 +1533,8 @@
                     "bossGluhar": 0,
                     "bossSanitar": 1,
                     "bossTagilla": 1,
+                    "bossZryachiy": 0,
+                    "bossBoar": 0,
                     "followerGluharAssault": 0,
                     "followerBully": 2,
                     "followerBigPipe": 2,
@@ -1149,6 +1542,9 @@
                     "assault": 5,
                     "cursedAssault": 1,
                     "exUsec": 5,
+                    "arenaFighter": 0,
+                    "arenaFighterEvent": 0,
+                    "crazyAssaultEvent": 3,
                     "pmcBot": 5
                 }
             },
@@ -1159,6 +1555,8 @@
                     "bossGluhar": 0,
                     "bossSanitar": 1,
                     "bossTagilla": 1,
+                    "bossZryachiy": 0,
+                    "bossBoar": 0,
                     "followerGluharAssault": 0,
                     "followerBully": 2,
                     "followerBigPipe": 2,
@@ -1166,6 +1564,9 @@
                     "assault": 5,
                     "cursedAssault": 1,
                     "exUsec": 5,
+                    "arenaFighter": 0,
+                    "arenaFighterEvent": 0,
+                    "crazyAssaultEvent": 3,
                     "pmcBot": 5
                 },
                 "factory4_night": {
@@ -1174,6 +1575,8 @@
                     "bossGluhar": 0,
                     "bossSanitar": 1,
                     "bossTagilla": 1,
+                    "bossZryachiy": 0,
+                    "bossBoar": 0,
                     "followerGluharAssault": 0,
                     "followerBully": 2,
                     "followerBigPipe": 2,
@@ -1181,6 +1584,9 @@
                     "assault": 5,
                     "cursedAssault": 1,
                     "exUsec": 5,
+                    "arenaFighter": 0,
+                    "arenaFighterEvent": 0,
+                    "crazyAssaultEvent": 3,
                     "pmcBot": 5
                 },
                 "bigmap": {
@@ -1189,6 +1595,8 @@
                     "bossGluhar": 0,
                     "bossSanitar": 1,
                     "bossTagilla": 1,
+                    "bossZryachiy": 0,
+                    "bossBoar": 0,
                     "followerGluharAssault": 0,
                     "followerBully": 2,
                     "followerBigPipe": 2,
@@ -1196,6 +1604,9 @@
                     "assault": 5,
                     "cursedAssault": 1,
                     "exUsec": 5,
+                    "arenaFighter": 0,
+                    "arenaFighterEvent": 0,
+                    "crazyAssaultEvent": 3,
                     "pmcBot": 5
                 },
                 "laboratory": {
@@ -1204,6 +1615,8 @@
                     "bossGluhar": 0,
                     "bossSanitar": 1,
                     "bossTagilla": 1,
+                    "bossZryachiy": 0,
+                    "bossBoar": 0,
                     "followerGluharAssault": 0,
                     "followerBully": 2,
                     "followerBigPipe": 2,
@@ -1211,6 +1624,9 @@
                     "assault": 5,
                     "cursedAssault": 1,
                     "exUsec": 5,
+                    "arenaFighter": 0,
+                    "arenaFighterEvent": 0,
+                    "crazyAssaultEvent": 3,
                     "pmcBot": 5
                 },
                 "woods": {
@@ -1220,6 +1636,8 @@
                     "bossSanitar": 1,
                     "bossTagilla": 1,
                     "bossKojaniy": 0,
+                    "bossZryachiy": 0,
+                    "bossBoar": 0,
                     "followerGluharAssault": 0,
                     "followerBully": 2,
                     "followerBigPipe": 2,
@@ -1227,6 +1645,9 @@
                     "assault": 5,
                     "cursedAssault": 1,
                     "exUsec": 5,
+                    "arenaFighter": 0,
+                    "arenaFighterEvent": 0,
+                    "crazyAssaultEvent": 3,
                     "pmcBot": 5
                 },
                 "interchange": {
@@ -1235,6 +1656,8 @@
                     "bossGluhar": 0,
                     "bossSanitar": 1,
                     "bossTagilla": 1,
+                    "bossZryachiy": 0,
+                    "bossBoar": 0,
                     "followerGluharAssault": 0,
                     "followerBully": 2,
                     "followerBigPipe": 2,
@@ -1242,6 +1665,9 @@
                     "assault": 5,
                     "cursedAssault": 1,
                     "exUsec": 5,
+                    "arenaFighter": 0,
+                    "arenaFighterEvent": 0,
+                    "crazyAssaultEvent": 3,
                     "pmcBot": 5
                 },
                 "lighthouse": {
@@ -1250,6 +1676,8 @@
                     "bossGluhar": 0,
                     "bossSanitar": 1,
                     "bossTagilla": 1,
+                    "bossZryachiy": 0,
+                    "bossBoar": 0,
                     "followerGluharAssault": 0,
                     "followerBully": 2,
                     "followerBigPipe": 2,
@@ -1257,6 +1685,9 @@
                     "assault": 5,
                     "cursedAssault": 1,
                     "exUsec": 5,
+                    "arenaFighter": 0,
+                    "arenaFighterEvent": 0,
+                    "crazyAssaultEvent": 3,
                     "pmcBot": 5
                 },
                 "rezervbase": {
@@ -1265,6 +1696,8 @@
                     "bossGluhar": 0,
                     "bossSanitar": 1,
                     "bossTagilla": 1,
+                    "bossZryachiy": 0,
+                    "bossBoar": 0,
                     "followerGluharAssault": 0,
                     "followerBully": 2,
                     "followerBigPipe": 2,
@@ -1272,6 +1705,9 @@
                     "assault": 5,
                     "cursedAssault": 1,
                     "exUsec": 5,
+                    "arenaFighter": 0,
+                    "arenaFighterEvent": 0,
+                    "crazyAssaultEvent": 3,
                     "pmcBot": 5
                 },
                 "shoreline": {
@@ -1280,6 +1716,8 @@
                     "bossGluhar": 0,
                     "bossSanitar": 1,
                     "bossTagilla": 1,
+                    "bossZryachiy": 0,
+                    "bossBoar": 0,
                     "followerGluharAssault": 0,
                     "followerBully": 2,
                     "followerBigPipe": 2,
@@ -1287,6 +1725,9 @@
                     "assault": 5,
                     "cursedAssault": 1,
                     "exUsec": 5,
+                    "arenaFighter": 0,
+                    "arenaFighterEvent": 0,
+                    "crazyAssaultEvent": 3,
                     "pmcBot": 5
                 },
                 "tarkovstreets": {
@@ -1295,6 +1736,8 @@
                     "bossGluhar": 0,
                     "bossSanitar": 1,
                     "bossTagilla": 1,
+                    "bossZryachiy": 0,
+                    "bossBoar": 0,
                     "followerGluharAssault": 0,
                     "followerBully": 2,
                     "followerBigPipe": 2,
@@ -1302,6 +1745,9 @@
                     "assault": 5,
                     "cursedAssault": 1,
                     "exUsec": 5,
+                    "arenaFighter": 0,
+                    "arenaFighterEvent": 0,
+                    "crazyAssaultEvent": 3,
                     "pmcBot": 5
                 }
             }
@@ -1309,6 +1755,7 @@
         "usecType": "sptUsec",
         "bearType": "sptBear",
         "looseWeaponInBackpackChancePercent": 15,
+        "weaponHasEnhancementChancePercent": 5,
         "looseWeaponInBackpackLootMinMax": {
             "min": 1,
             "max": 1
@@ -1332,20 +1779,35 @@
             "exusec": {
                 "min": 0,
                 "max": 0
+            },
+            "arenafighter": {
+                "min": 0,
+                "max": 0
+            },
+            "arenafighterevent": {
+                "min": 0,
+                "max": 0
+            },
+            "crazyassaultevent": {
+                "min": 5,
+                "max": 5
             }
         },
-        "enemyTypes": ["assault", "marksman", "pmcBot", "bossBully", "bossKilla", "bossKojaniy", "bossGluhar", "bossSanitar", "bossTagilla", "bossKnight", "followerBully", "followerKojaniy", "followerGluharAssault", "followerGluharSecurity", "followerGluharScout", "followerGluharSnipe", "followerSanitar", "followerBirdEye", "followerBigPipe", "sectantWarrior", "sectantPriest"]
+        "enemyTypes": ["assault", "marksman", "pmcBot", "bossBully", "bossKilla", "bossKojaniy", "bossGluhar", "bossSanitar", "bossTagilla", "bossKnight", "bossZryachiy", "bossBoar", "bossBoarSniper", "followerBully", "followerKojaniy", "followerGluharAssault", "followerGluharSecurity", "followerGluharScout", "followerGluharSnipe", "followerSanitar", "followerBirdEye", "followerBigPipe", "followerZryachiy", "followerBoar", "arenafighter", "arenafighterevent", "crazyassaultevent", "sectantWarrior", "sectantPriest"],
+        "forceHealingItemsIntoSecure": true,
+        "addPrefixToSameNamePMCAsPlayerChance": 40,
+        "allPMCsHavePlayerNameWithRandomPrefixChance": 1
     },
     "showTypeInNickname": false,
     "maxBotCap": {
-        "factory4_day": 12,
-        "factory4_night": 12,
-        "bigmap": 18,
+        "factory4_day": 15,
+        "factory4_night": 15,
+        "bigmap":25,
         "woods": 30,
         "shoreline": 30,
         "lighthouse": 20,
         "rezervbase": 20,
-        "interchange": 15,
+        "interchange": 18,
         "laboratory": 16,
         "tarkovstreets": 30,
         "default": 15

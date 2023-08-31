@@ -22,8 +22,8 @@
       "max": 1
     },
     "reward": {
-      "min": 2500,
-      "max": 2500
+      "min": 1000,
+      "max": 1000
     },
     "standingForKill": -0.2,
     "aggressorBonus": 0.05
@@ -95,8 +95,8 @@
       "Eyewear": {
         "5d6d2ef3a4b93618084f58bd": 1,
         "5aa2b9aee5b5b00015693121": 1,
-        "61c18d83b00456371a66814b": 1,
-        "5aa2b986e5b5b00014028f4c": 1
+        "5aa2b986e5b5b00014028f4c": 1,
+        "61c18d83b00456371a66814b": 1
       },
       "ArmBand": {},
       "TacticalVest": {},
@@ -110,7 +110,7 @@
       },
       "SecondPrimaryWeapon": {},
       "Holster": {
-        "5b3b713c5acfc4330140bd8d": 1,
+        "5b3b713c5acfc4330140bd8d": 3,
         "6193a720f8ee7e52e42109ed": 1,
         "602a9740da11d6478d5a06dc": 5
       },
@@ -147,7 +147,8 @@
         "5c0d56a986f774449d5de529": 1,
         "5a3c16fe86f77452b62de32a": 1,
         "5c925fa22e221601da359b7b": 1,
-        "5efb0da7a29a85116f6ea05f": 1
+        "5efb0da7a29a85116f6ea05f": 1,
+        "64b7bbb74b75259c590fa897": 1
       },
       "Caliber1143x23ACP": {
         "5e81f423763d9f754677bf2e": 1,
@@ -326,7 +327,8 @@
           "56d59d3ad2720bdb418b4577",
           "5a3c16fe86f77452b62de32a",
           "5c925fa22e221601da359b7b",
-          "5efb0da7a29a85116f6ea05f"
+          "5efb0da7a29a85116f6ea05f",
+          "64b7bbb74b75259c590fa897"
         ]
       },
       "5926c0df86f77462f647f764": {
@@ -499,7 +501,8 @@
         "5d947d4e86f774447b415895",
         "63a39f18c2d53c2c6839c1d3",
         "62987cb98081af308d7558c8",
-        "63a397d3af870e651d58e65b"
+        "63a397d3af870e651d58e65b",
+        "5ed5166ad380ab312177c100"
       ],
       "Backpack": [
         "5c1d0d6d86f7744bb2683e1f",
@@ -570,7 +573,8 @@
         "5d6e68a8a4b9360b6c0d54e2",
         "5efb0cabfb3e451d70735af5",
         "5a6086ea4f39f99cd479502f",
-        "5efb0da7a29a85116f6ea05f"
+        "5efb0da7a29a85116f6ea05f",
+        "64b7bbb74b75259c590fa897"
       ],
       "SpecialLoot": []
     }
@@ -2525,7 +2529,7 @@
     "equipment": {
       "Headwear": 22,
       "Earpiece": 0,
-      "FaceCover": 6,
+      "FaceCover": 5,
       "ArmorVest": 0,
       "Eyewear": 45,
       "ArmBand": 0,
@@ -2548,7 +2552,7 @@
       "mod_mount_000": 8,
       "mod_charge": 56,
       "mod_mount_003": 100,
-      "mod_scope": 44,
+      "mod_scope": 43,
       "mod_tactical": 0,
       "mod_mount_001": 0,
       "mod_mount_002": 0,
@@ -2558,38 +2562,94 @@
       "mod_tactical_000": 0,
       "mod_tactical_001": 0,
       "mod_mount": 0,
-      "mod_tactical_003": 64
+      "mod_tactical_003": 65
     }
   },
   "generation": {
     "items": {
       "specialItems": {
-        "min": 0,
-        "max": 0
+        "weights": {
+          "0": 0
+        },
+        "whitelist": []
       },
       "healing": {
-        "min": 1,
-        "max": 2
+        "weights": {
+          "1": 1,
+          "2": 2
+        },
+        "whitelist": []
       },
       "drugs": {
-        "min": 0,
-        "max": 1
+        "weights": {
+          "0": 1,
+          "1": 2
+        },
+        "whitelist": []
       },
       "stims": {
-        "min": 0,
-        "max": 1
+        "weights": {
+          "0": 2,
+          "1": 1,
+          "2": 0
+        },
+        "whitelist": []
       },
-      "looseLoot": {
-        "min": 3,
-        "max": 7
+      "backpackLoot": {
+        "weights": {
+          "0": 1,
+          "1": 1,
+          "2": 2,
+          "3": 1,
+          "4": 1,
+          "5": 1,
+          "6": 1,
+          "7": 0
+        },
+        "whitelist": []
+      },
+      "pocketLoot": {
+        "weights": {
+          "0": 1,
+          "1": 6,
+          "2": 3,
+          "3": 1,
+          "4": 1
+        },
+        "whitelist": []
+      },
+      "vestLoot": {
+        "weights": {
+          "0": 1,
+          "1": 3,
+          "2": 5,
+          "3": 1,
+          "4": 1,
+          "5": 1,
+          "6": 1
+        },
+        "whitelist": []
       },
       "magazines": {
-        "min": 2,
-        "max": 4
+        "weights": {
+          "0": 0,
+          "1": 0,
+          "2": 1,
+          "3": 3,
+          "4": 2
+        },
+        "whitelist": []
       },
       "grenades": {
-        "min": 0,
-        "max": 5
+        "weights": {
+          "0": 1,
+          "1": 1,
+          "2": 5,
+          "3": 2,
+          "4": 1,
+          "5": 1
+        },
+        "whitelist": []
       }
     }
   }
