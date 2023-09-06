@@ -1800,17 +1800,17 @@
     },
     "showTypeInNickname": false,
     "maxBotCap": {
-        "factory4_day": 15,
-        "factory4_night": 15,
+        "factory4_day": 20,
+        "factory4_night": 20,
         "bigmap":25,
         "woods": 30,
         "shoreline": 30,
         "lighthouse": 20,
         "rezervbase": 20,
-        "interchange": 18,
-        "laboratory": 16,
+        "interchange": 20,
+        "laboratory": 20,
         "tarkovstreets": 30,
-        "default": 15
+        "default": 20
     },
     "botGenerationBatchSizePerType": 15
 }
