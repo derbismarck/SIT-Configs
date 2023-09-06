@@ -245,7 +245,7 @@
     "VisibleDistance": 1.3
   },
   "BotMarksman": 0,
-  "BotMax": 17,
+  "BotMax": 25,
   "BotMaxPlayer": 7,
   "BotMaxTimePlayer": 1000,
   "BotNormal": 50,
