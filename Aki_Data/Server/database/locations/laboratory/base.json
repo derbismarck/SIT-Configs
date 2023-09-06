@@ -35,6 +35,21 @@
   ],
   "BossLocationSpawn": [
     {
+      "BossChance": 20,
+      "BossDifficult": "normal",
+      "BossEscortAmount": "1",
+      "BossEscortDifficult": "normal",
+      "BossEscortType": "bossTagilla",
+      "BossName": "bossKilla",
+      "BossPlayer": false,
+      "BossZone": "BotZoneFloor1",
+      "Delay": 0,
+      "RandomTimeSpawn": false,
+      "Time": 0,
+      "TriggerId": "",
+      "TriggerName": ""
+    },
+    {
       "BossChance": 55,
       "BossDifficult": "normal",
       "BossEscortAmount": "1,1,1,1,2,2,2,1,1,1,1,2,2,2,3",
