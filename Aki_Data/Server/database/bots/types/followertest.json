@@ -30,34 +30,35 @@
             "min": 0,
             "max": 0
         },
-        "BodyParts": [{
+        "BodyParts": [
+            {
                 "Head": {
-                    "min": 0,
-                    "max": 0
+                    "min": 35,
+                    "max": 35
                 },
                 "Chest": {
-                    "min": 0,
-                    "max": 0
+                    "min": 85,
+                    "max": 85
                 },
                 "Stomach": {
-                    "min": 0,
-                    "max": 0
+                    "min": 70,
+                    "max": 70
                 },
                 "LeftArm": {
-                    "min": 0,
-                    "max": 0
+                    "min": 60,
+                    "max": 60
                 },
                 "RightArm": {
-                    "min": 0,
-                    "max": 0
+                    "min": 60,
+                    "max": 60
                 },
                 "LeftLeg": {
-                    "min": 0,
-                    "max": 0
+                    "min": 65,
+                    "max": 65
                 },
                 "RightLeg": {
-                    "min": 0,
-                    "max": 0
+                    "min": 65,
+                    "max": 65
                 }
             }
         ]
@@ -138,7 +139,7 @@
                 "DAMAGE_TO_DISCARD_AIM_0_100": 86.0,
                 "MIN_TIME_DISCARD_AIM_SEC": 0.3,
                 "MAX_TIME_DISCARD_AIM_SEC": 0.6,
-                "XZ_COEF": 0.10,
+                "XZ_COEF": 0.1,
                 "SHOOT_TO_CHANGE_PRIORITY": 5525,
                 "BOTTOM_COEF": 0.1,
                 "FIRST_CONTACT_ADD_SEC": 0.1,
@@ -608,7 +609,7 @@
                 "DAMAGE_TO_DISCARD_AIM_0_100": 86.0,
                 "MIN_TIME_DISCARD_AIM_SEC": 0.3,
                 "MAX_TIME_DISCARD_AIM_SEC": 0.6,
-                "XZ_COEF": 0.10,
+                "XZ_COEF": 0.1,
                 "SHOOT_TO_CHANGE_PRIORITY": 5525,
                 "BOTTOM_COEF": 0.1,
                 "FIRST_CONTACT_ADD_SEC": 0.1,
@@ -1078,7 +1079,7 @@
                 "DAMAGE_TO_DISCARD_AIM_0_100": 86.0,
                 "MIN_TIME_DISCARD_AIM_SEC": 0.3,
                 "MAX_TIME_DISCARD_AIM_SEC": 0.6,
-                "XZ_COEF": 0.10,
+                "XZ_COEF": 0.1,
                 "SHOOT_TO_CHANGE_PRIORITY": 5525,
                 "BOTTOM_COEF": 0.1,
                 "FIRST_CONTACT_ADD_SEC": 0.1,
@@ -1548,7 +1549,7 @@
                 "DAMAGE_TO_DISCARD_AIM_0_100": 86.0,
                 "MIN_TIME_DISCARD_AIM_SEC": 0.3,
                 "MAX_TIME_DISCARD_AIM_SEC": 0.6,
-                "XZ_COEF": 0.10,
+                "XZ_COEF": 0.1,
                 "SHOOT_TO_CHANGE_PRIORITY": 5525,
                 "BOTTOM_COEF": 0.1,
                 "FIRST_CONTACT_ADD_SEC": 0.1,
@@ -2006,10 +2007,10 @@
                 "max": 1,
                 "min": 0
             },
-			"stims": {
-				"min": 0,
-				"max": 1
-			},
+            "stims": {
+                "min": 0,
+                "max": 1
+            },
             "looseLoot": {
                 "min": 0,
                 "max": 0

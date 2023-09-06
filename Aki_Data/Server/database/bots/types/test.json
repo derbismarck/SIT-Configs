@@ -31,34 +31,35 @@
             "min": 36,
             "max": 40
         },
-        "BodyParts": [{
+        "BodyParts": [
+            {
                 "Head": {
-                    "min": 50,
-                    "max": 50
+                    "min": 35,
+                    "max": 35
                 },
                 "Chest": {
-                    "min": 140,
-                    "max": 140
+                    "min": 85,
+                    "max": 85
                 },
                 "Stomach": {
-                    "min": 110,
-                    "max": 110
+                    "min": 70,
+                    "max": 70
                 },
                 "LeftArm": {
-                    "min": 80,
-                    "max": 80
+                    "min": 60,
+                    "max": 60
                 },
                 "RightArm": {
-                    "min": 80,
-                    "max": 80
+                    "min": 60,
+                    "max": 60
                 },
                 "LeftLeg": {
-                    "min": 85,
-                    "max": 85
+                    "min": 65,
+                    "max": 65
                 },
                 "RightLeg": {
-                    "min": 85,
-                    "max": 85
+                    "min": 65,
+                    "max": 65
                 }
             }
         ]
@@ -139,7 +140,7 @@
                 "DAMAGE_TO_DISCARD_AIM_0_100": 86.0,
                 "MIN_TIME_DISCARD_AIM_SEC": 0.3,
                 "MAX_TIME_DISCARD_AIM_SEC": 0.6,
-                "XZ_COEF": 0.10,
+                "XZ_COEF": 0.1,
                 "SHOOT_TO_CHANGE_PRIORITY": 5525,
                 "BOTTOM_COEF": 0.1,
                 "FIRST_CONTACT_ADD_SEC": 0.1,
@@ -500,14 +501,13 @@
                 "KILLA_CLOSEATTACK_DELAY": 10.0,
                 "KILLA_HOLD_DELAY": 5.0,
                 "KILLA_BULLET_TO_RELOAD": 15,
-                "SHALL_WARN": true,
+                "SHALL_WARN": false,
                 "KOJANIY_DIST_WHEN_READY": 40.0,
                 "KOJANIY_DIST_TO_BE_ENEMY": 200.0,
                 "KOJANIY_MIN_DIST_TO_LOOT": 20.0,
                 "KOJANIY_MIN_DIST_TO_LOOT_SQRT": 400.0,
                 "KOJANIY_DIST_ENEMY_TOO_CLOSE": 17.0,
                 "KOJANIY_MANY_ENEMIES_COEF": 1.5,
-                "SHALL_WARN": false,
                 "KILLA_ENEMIES_TO_ATTACK": 3,
                 "KILLA_ONE_IS_CLOSE": 30.0,
                 "KILLA_TRIGGER_DOWN_DELAY": 1.0,
@@ -608,7 +608,7 @@
                 "DAMAGE_TO_DISCARD_AIM_0_100": 86.0,
                 "MIN_TIME_DISCARD_AIM_SEC": 0.3,
                 "MAX_TIME_DISCARD_AIM_SEC": 0.6,
-                "XZ_COEF": 0.10,
+                "XZ_COEF": 0.1,
                 "SHOOT_TO_CHANGE_PRIORITY": 5525,
                 "BOTTOM_COEF": 0.1,
                 "FIRST_CONTACT_ADD_SEC": 0.1,
@@ -969,14 +969,13 @@
                 "KILLA_CLOSEATTACK_DELAY": 10.0,
                 "KILLA_HOLD_DELAY": 5.0,
                 "KILLA_BULLET_TO_RELOAD": 15,
-                "SHALL_WARN": true,
+                "SHALL_WARN": false,
                 "KOJANIY_DIST_WHEN_READY": 40.0,
                 "KOJANIY_DIST_TO_BE_ENEMY": 200.0,
                 "KOJANIY_MIN_DIST_TO_LOOT": 20.0,
                 "KOJANIY_MIN_DIST_TO_LOOT_SQRT": 400.0,
                 "KOJANIY_DIST_ENEMY_TOO_CLOSE": 17.0,
                 "KOJANIY_MANY_ENEMIES_COEF": 1.5,
-                "SHALL_WARN": false,
                 "KILLA_ENEMIES_TO_ATTACK": 3,
                 "KILLA_ONE_IS_CLOSE": 30.0,
                 "KILLA_TRIGGER_DOWN_DELAY": 1.0,
@@ -1077,7 +1076,7 @@
                 "DAMAGE_TO_DISCARD_AIM_0_100": 86.0,
                 "MIN_TIME_DISCARD_AIM_SEC": 0.3,
                 "MAX_TIME_DISCARD_AIM_SEC": 0.6,
-                "XZ_COEF": 0.10,
+                "XZ_COEF": 0.1,
                 "SHOOT_TO_CHANGE_PRIORITY": 5525,
                 "BOTTOM_COEF": 0.1,
                 "FIRST_CONTACT_ADD_SEC": 0.1,
@@ -1438,14 +1437,13 @@
                 "KILLA_CLOSEATTACK_DELAY": 10.0,
                 "KILLA_HOLD_DELAY": 5.0,
                 "KILLA_BULLET_TO_RELOAD": 15,
-                "SHALL_WARN": true,
+                "SHALL_WARN": false,
                 "KOJANIY_DIST_WHEN_READY": 40.0,
                 "KOJANIY_DIST_TO_BE_ENEMY": 200.0,
                 "KOJANIY_MIN_DIST_TO_LOOT": 20.0,
                 "KOJANIY_MIN_DIST_TO_LOOT_SQRT": 400.0,
                 "KOJANIY_DIST_ENEMY_TOO_CLOSE": 17.0,
                 "KOJANIY_MANY_ENEMIES_COEF": 1.5,
-                "SHALL_WARN": false,
                 "KILLA_ENEMIES_TO_ATTACK": 3,
                 "KILLA_ONE_IS_CLOSE": 30.0,
                 "KILLA_TRIGGER_DOWN_DELAY": 1.0,
@@ -1546,7 +1544,7 @@
                 "DAMAGE_TO_DISCARD_AIM_0_100": 86.0,
                 "MIN_TIME_DISCARD_AIM_SEC": 0.3,
                 "MAX_TIME_DISCARD_AIM_SEC": 0.6,
-                "XZ_COEF": 0.10,
+                "XZ_COEF": 0.1,
                 "SHOOT_TO_CHANGE_PRIORITY": 5525,
                 "BOTTOM_COEF": 0.1,
                 "FIRST_CONTACT_ADD_SEC": 0.1,
@@ -1907,14 +1905,13 @@
                 "KILLA_CLOSEATTACK_DELAY": 10.0,
                 "KILLA_HOLD_DELAY": 5.0,
                 "KILLA_BULLET_TO_RELOAD": 15,
-                "SHALL_WARN": true,
+                "SHALL_WARN": false,
                 "KOJANIY_DIST_WHEN_READY": 40.0,
                 "KOJANIY_DIST_TO_BE_ENEMY": 200.0,
                 "KOJANIY_MIN_DIST_TO_LOOT": 20.0,
                 "KOJANIY_MIN_DIST_TO_LOOT_SQRT": 400.0,
                 "KOJANIY_DIST_ENEMY_TOO_CLOSE": 17.0,
                 "KOJANIY_MANY_ENEMIES_COEF": 1.5,
-                "SHALL_WARN": false,
                 "KILLA_ENEMIES_TO_ATTACK": 3,
                 "KILLA_ONE_IS_CLOSE": 30.0,
                 "KILLA_TRIGGER_DOWN_DELAY": 1.0,
@@ -2026,10 +2023,10 @@
                 "max": 1,
                 "min": 0
             },
-			"stims": {
-				"min": 0,
-				"max": 1
-			},
+            "stims": {
+                "min": 0,
+                "max": 1
+            },
             "looseLoot": {
                 "min": 0,
                 "max": 3
